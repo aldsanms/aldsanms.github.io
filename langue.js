@@ -57,10 +57,10 @@ function getCookie(name) {
 
 var baniere={
 
-    l1: ["Mon parcours","My experiences"],
-    l2: ["Mon CV","My resume"],
-    l3: ["Mes projets","My projects"],
-    l4: ["Mes compétences","My skills"],
+    l1: ["Mon parcours","Experiences"],
+    l2: ["Mon CV","Resume"],
+    l3: ["Mes projets","Projects"],
+    l4: ["Mes compétences","Skills"],
     l5: ["Me contacter","Contact me"],
 
     img01: ["../img/fr.jpg","../img/en/en.png"]
