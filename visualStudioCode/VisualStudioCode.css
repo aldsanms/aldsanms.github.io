@@ -1,0 +1,115 @@
+
+
+/*********************************/
+/*********************************/
+
+.bandeau2
+{
+	background-color: #C0C0C088;
+	height: 10px;
+	width: 100%;
+	margin-top: 1%;
+	margin-bottom: 1%;
+}
+
+.bas01
+{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-right: 0%;
+	margin-left: 0%;
+    background: linear-gradient(150deg ,rgb(229, 248, 255), #45aeffaa);
+    left: 0%; 
+
+}
+
+/*******************************/
+/*******************************/
+
+
+.logo
+{
+	background-image: url(../mesprojets/visualStudioCode.png);
+	background-size: cover;
+	height: 500px;
+	width:550px;
+}
+
+.bas01h
+{
+	width: 50%;
+	color: #000000;
+	text-decoration: none;
+	margin-left: 5%;
+	margin-right: 5%;
+	font-size: 170%;
+	font-style: oblique;
+	font-weight: bold;
+	text-align: justify;
+	text-align: center;
+}
+.bas01h:hover
+{
+	color: #555555;
+	font-size: 180%;
+}
+
+.tit01
+{
+	font-size: 120%;
+	margin-bottom: 4%;
+	text-decoration: underline;
+}
+
+.projet
+{
+	background: linear-gradient(#D2D2D255, rgb(229, 248, 255));
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+	width: 100%;
+}
+
+
+
+
+/*************************************/
+
+.projet01
+{
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+	width: 100%;	
+}
+
+.p01
+{
+	display: flex;
+    align-items: center;
+	height: 200px;
+	width: 200px;
+	margin-right: 2%;
+	margin-left: 2%;
+}
+.p01:hover
+{
+	height: 220px;
+	width: 220px;
+}
+.p1
+{
+	background-size: cover;
+	margin-left: 0%;
+	height: 400px;
+	width: 400px;
+}
+.p1:hover
+{
+	height: 450px;
+	width: 450px;
+}
+

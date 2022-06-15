@@ -1,0 +1,130 @@
+
+/*********************************/
+/*********************************/
+
+.bandeau2
+{
+	background-color:  #C0C0C088; 
+	height: 10px;
+	margin-left: -1%;
+	margin-right: -0.3%;
+}
+
+.bas01
+{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-right: 0%;
+	margin-left: 0%;
+    background: linear-gradient(150deg ,#ffffffff, #ffffffaa);
+    left: 0%; 
+
+}
+
+.esp
+{
+	height: 50px;
+}
+.esp2
+{
+	background-color: #555555;
+	height: 10px;
+	width: 100%;
+}
+.esp3
+{
+	height: 400px;
+	width: 100%;
+}
+
+.tit
+{
+	margin-top: -40px;
+	margin-left: 170px;
+	text-decoration: underline #000000;
+}
+.tit1
+{
+	margin-top: 0px;
+	font-size: 180%;
+	text-decoration: underline #5FB000;
+}
+.annee11
+{
+	background-color: #46FF0022;
+	display: flex;
+	flex-direction: column;
+	font-size: 110%;
+	padding: 20px;
+	width: 86%;
+	margin-left: -2%;
+
+
+}
+.annee1
+{
+	background-color: #3DDE0011;
+	display: flex;
+	flex-direction: column;
+	padding: 20px;
+	width: 84%;
+
+}
+.annee2
+{
+	background-color: #0000001E;
+	display: flex;
+	flex-direction: column;
+	padding: 20px;
+	width: 80%;
+	margin-left: 4%;
+
+}
+.annee3
+{
+	background-color: #0000000E;
+	display: flex;
+	flex-direction: column;
+	font-size: 90%;
+	padding: 20px;
+	width: 76%;
+	margin-left: 8%;
+
+}
+
+
+
+.com
+{
+	margin-top: -30px;
+	/*margin-left: 170px;*/
+	font-size: 80%;
+	text-align: justify;
+	padding: 20px;
+}
+.stro
+{
+	font-size: 110%;
+	color:#AE0000;
+	text-decoration:underline #AE0000;
+}
+.stro1
+{
+	background-color: #C20F0022;
+	font-size: 120%;
+	color:#DA0000;
+	text-decoration:underline #DA0000;
+}
+.stroa
+{
+	font-size: 120%;
+	color:#7800FF;
+	text-decoration:underline #7800FF;
+}
+.stroa:hover
+{
+	font-size: 120%;
+	color:#9536FF;
+	text-decoration:underline #9536FF;
+}

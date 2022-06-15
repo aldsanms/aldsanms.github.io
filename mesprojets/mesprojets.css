@@ -1,0 +1,121 @@
+
+
+
+
+/*********************************/
+/*********************************/
+
+.bandeau2
+{
+	background-color:  #C0C0C088; 
+	height: 10px;
+	margin-left: -1%;
+	margin-right: -0.3%;
+}
+
+.bas01
+{
+
+	margin-right: 0%;
+	margin-left: 0%;
+    background: linear-gradient(150deg ,#ffffffff, #ffffffaa);
+    left: 0%; 
+
+}
+
+.bas01div
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+	width: 100%;	
+}
+
+.bas01h
+{
+	width: 50%;
+	color: #000000;
+	text-decoration: none;
+	margin-left: 5%;
+	margin-right: 5%;
+	font-size: 170%;
+	font-style: oblique;
+	font-weight: bold;
+	text-align: justify;
+	text-align: center;
+}
+.bas01h:hover
+{
+	color: #555555;
+	font-size: 180%;
+}
+
+
+
+.arduino
+{
+	background-image: url(arduino.png);
+	background-size: cover;
+	margin-right: 0%;
+	margin-top:  0.5%;
+	margin-bottom: 0.5%;
+	height: 400px;
+	width: 450px;
+}
+.arduino:hover
+{
+	height: 420px;
+	width: 470px;
+}
+
+
+.openscad
+{
+	background-image: url(openscad.png);
+	background-size: cover;
+	margin-left: 0%;
+	margin-top:  0.5%;
+	margin-bottom: 0.5%;
+	height: 400px;
+	width: 450px;
+}
+.openscad:hover
+{
+	height: 420px;
+	width: 470px;
+}
+
+
+.unrealengine
+{
+	background-image: url(unrealengine.png);
+	background-size: cover;
+	margin-right: 0%;
+	margin-top:  0.5%;
+	margin-bottom: 0.5%;
+	height: 400px;
+	width: 450px;
+}
+.unrealengine:hover
+{
+	height: 420px;
+	width: 470px;
+}
+
+
+.visualStudioCode
+{
+	background-image: url(visualStudioCode.png);
+	background-size: cover;
+	margin-left: 0%;
+	margin-top:  0.5%;
+	margin-bottom: 0.5%;
+	height: 400px;
+	width: 450px;
+}
+.visualStudioCode:hover
+{
+	height: 420px;
+	width: 470px;
+}
