@@ -63,7 +63,7 @@ var baniere={
     l4: ["Mes compétences","Skills"],
     l5: ["Me contacter","Contact me"],
 
-    img01: ["../img/fr.jpg","../img/en/en.png"]
+    img01: ["./img/fr.jpg","./img/en/en.png"]
 
 };
 
@@ -108,13 +108,13 @@ var Index={
     i7: [" Pour en savoir plus sur moi",
         " Learn more about me"],
     a6: ["Mon parcours",
-        "My experience"],
+        "Experience"],
     a7: ["Mon CV",
-        "My resume"],
+        "Resume"],
     a8: ["Mes projets",
-        "My projects"],
+        "Projects"],
     a9: ["Mes compétences",
-        "My skills"],
+        "Skills"],
     a10: ["Me contacter",
         "Contact me"],
 
@@ -322,6 +322,18 @@ var MonParcours={
     "img/gris.jpg"],
 
 
+    i27: ["Stage de développeur informatique Chez OpenIndoor",
+    "IT developer internship at OpenIndoor"],
+    i28: ["En milieu de ma <strong class=\"stro\">3<sup>éme</sup> année de formation d\'ingénieur</strong>, j'ai faits un stage de <strong class=\"stro\">4 mois</strong> dans la société OpenIndoor. Elle évolue dans le secteur de la <strong class=\"stro\">cartographie 3D</strong> et interactive de l'intérieur de bâtiments directement sur une <strong class=\"stro1\">application Web</strong>. Ma mission principale a été de travailler sur une solution <strong class=\"stro1\">d’intégration d’objet 3d</strong> sur une carte <strong class=\"stro1\">MapLibre</strong> avec l’aide de <strong class=\"stro1\">Three js</strong>. Plus tard, je me suis concentré sur <strong class=\"stro\">l’immersion de l’utilisateur</strong> et j'ai développé une librairie de fonctionnalités qui permettent le <strong class=\"stro\">déplacement de la caméra en 1er personne</strong>. Par la suite, j'ai travaillé sur les <strong class=\"stro1\">collisions</strong> pour empêcher la caméra de traverser les murs. À la fin de mon stage il m'a été demandé de <strong class=\"stro1\">développer un jeux vidéo</strong> de tir à la première personne accessible sur le web en Javascript qui utilise toutes les librairies développées au long de ces 4 mois.<br><br> Voici un lien vous pérmetant de jouer à ce jeux vidéo : ",
+    "In the middle of my <strong class=\"stro\">3<sup>rd</sup> year of engineering training</strong>, I did a <strong class=\"stro\">4-month</strong> internship in the company OpenIndoor. It evolves in the sector of <strong class=\"stro\">3D and interactive mapping</strong> of the interior of buildings directly on a <strong class=\"stro1\">Web application</strong>. My main mission was to work on a solution for <strong class=\"stro1\">integrating 3d objects</strong> on a <strong class=\"stro1\">MapLibre</strong> map using <strong class=\"stro1\">Three js</strong>. Later I focused on <strong class=\"stro\">user immersion</strong> and developed a library of features to <strong class=\"stro\">move the camera in 1st person</strong>. Then I worked on <strong class=\"stro1\">collisions</strong> to prevent the camera from going through walls. At the end of my internship, I was asked to <strong class=\"stro1\">develop a first person shooter video game</strong> accessible on the web in Javascript which uses all the libraries developed during these 4 months.<br><br> Here is a link to play this video game:"],
+    a1: ["https://wft3d.openindoor.io/wft02/"],// jeux vidéo openIndoor
+
+
+
+    i25: ["Stage de développeur informatique Chez Keyoss",
+    "IT developer internship at Keyoss"],
+    i26: ["Entre avril et juin 2021 sur une période de <strong class=\"stro\">2 mois</strong>, j’ai réalisé un stage dans la société Keyoss pour la <strong class=\"stro\">fin de ma 2<sup>nd</sup> année de préparation intégrée</strong>. Keyoss évolue dans le domaine de la communication en pharmacie et propose une solution de mise en avant de produit dans le but de booster les ventes des laboratoires. Ma mission a été de développer une <strong class=\"stro1\">application Android</strong> pour tablette en <strong class=\"stro1\">Javascript</strong> avec <strong class=\"stro1\">React Native</strong> qui doit diffuser des vidéos promotionnelles automatiquement durant la phase d’ouverture de la pharmacie. Le pharmacien a de plus la possiblité de choisir une nouvelle vidéo à tout momment. J'ai de plus pu installer des présentoirs directement en pharmacie, améliore ainsi ma <strong class=\"stro1\">communication avec le client</strong>.",
+    "Between April and June 2021 over a period of <strong class=\"stro\">2 months</strong>, I did an internship at Keyoss for the <strong class=\"stro\">end of my 2<sup>nd</sup> year of integrated preparation</strong>. Keyoss is evolving in the field of pharmacy communication and offers a product referencing solution with the aim of boosting laboratory sales. My mission was to develop an <strong class=\"stro1\">Android application</strong> for tablet in <strong class=\"stro1\">Javascript</strong> with <strong class=\"stro1\" >React Native</strong> which should automatically play promotional videos during the opening phase of the pharmacy. The pharmacist also has the option of choosing a new video at any time. I was also able to install displays directly in the pharmacy, improving my <strong class=\"stro1\">communication with the customer</strong>."],
 
 
     i1: ["Formation en école ingénieur au CESI de Toulouse",
