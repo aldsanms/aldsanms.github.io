@@ -11,7 +11,7 @@ document.write(
 
 '</div>'+
 '<div class="Lang">'+
-    '<button class="drap" id="drap"></button>'+
+    '<button class="drap" id="drap"></button>'+'<img class="drap" src="./img/fbas.png" alt="fleche bas">'+
     '<div class="liDrap">'+
         '<button class="drapli" id="drap1" onclick=changeLang(0)></button>'+
         '<button class="drapli" id="drap2" onclick=changeLang(1)></button>'+
@@ -21,7 +21,7 @@ document.write(
 '<style>'+
     '#drap {'+
 
-        'margin-top: -10px;'+
+        'margin-top: 4px;'+
         'cursor: pointer;'+
         'background-position: center;'+
         'background-image: url('+baniere.img01[lan]+');'+
@@ -30,7 +30,6 @@ document.write(
         'width: 70px;'+
         'background-size: 49px 35px;'+
         'border-style : none;'+
-
    '}'+
 '</style>'
 
@@ -38,10 +37,7 @@ document.write(
 
 
 
-function changeLang(l){
-    document.cookie = "Langue="+l;
-    location.reload();
-}
+
 
 var b = document.getElementById("l1");
 b.innerHTML=baniere.l1[lan];

@@ -10,6 +10,7 @@ if(lan!=null){
     if(lan>nombreDeLangues-1 || lan<0){
         lan=1;
     }
+
 }else{
 
     if(navigator.userLanguage){
@@ -22,16 +23,40 @@ if(lan!=null){
     if(language.indexOf('fr') > -1){
     
         lan=0;
-        document.cookie = "Langue="+lan;
+        //if(cookOK==1)document.cookie = "Langue="+lan;
     } else {
 
     lan=1;
-    document.cookie = "Langue="+lan;
+    //if(cookOK==1)document.cookie = "Langue="+lan;
     }
     
 
 }
 //lan=1;
+
+
+
+function changeLang(l){
+
+    var lan= getCookie("Langue");
+
+    if(lan!=null){
+        if(lan>nombreDeLangues-1 || lan<0){
+            lan=1;
+        }
+        document.cookie = "Langue="+l;
+        location.reload();
+    }else{
+
+        //if(window.confirm("cookie?"))document.cookie = "Langue="+l;
+        document.cookie = "Langue="+l;
+        location.reload();
+    }
+
+    
+}
+
+
 
 
 
@@ -382,9 +407,9 @@ var MonParcours={
 
     i19: ["Cours de dessin à la MJC de Montauban.",
         "Drawing lessons at the MJC in Montauban."],
-    i20: ["Pendant trois ans et trois heures par semaines, j\'ai pris des cours de dessin. J\'y ai appris la gestion des ombres et des proportions.<br>",
+    i20: ["Pendant trois ans et trois heures par semaines, j\'ai pris des cours de dessin. J\'y ai appris la gestion des ombres et des proportions ",
         "For three years and three hours a week, I took drawing lessons. I learned there how to manage shadows and proportions "],
-    i21: ["Mais aussi le <strong class=\"stro1\">sens de la critique</strong>, il nous était demandé de donner notre avis sur les réalisations de nos acolytes.",
+    i21: ["mais aussi le <strong class=\"stro1\">sens de la critique</strong>, il nous était demandé de donner notre avis sur les réalisations de nos acolytes.",
         "but also the <strong class=\"stro1\">sense of criticism</strong>. We were asked to give our opinion on the achievements of our acolytes."],
 
     i22: ["Cours de robotique, électronique, informatique à la MJC de Montauban.",

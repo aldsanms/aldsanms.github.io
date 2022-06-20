@@ -177,6 +177,10 @@ body
 	.Lang {
 		position: relative;
 		display: inline-block;
+		height: 45px;
+		padding-right: 5px;
+		border: 1mm ridge rgba(25, 25, 24, 0.6);
+		
 	}
 
 	.liDrap {
@@ -186,4 +190,13 @@ body
 
 	.Lang:hover .liDrap {
 	display: block;
+	}
+
+
+	#cookOK {
+		height: 100%;
+		width: 100%;
+
+		background-color: #00000055;
+		position: absolute;
 	}
