@@ -579,12 +579,20 @@ var OpenScad={
 /////////////////// VisualStudioCode
 var VisualStudioCode={
 
-    i1: ["zz",
-        "zz"],
-    i2: ["zz",
-        "zz"],
-    i3: ["zz",
-        "zz"],
+    i1: ["Logiciel de cryptage et décryptage de messages ",
+        "Message encryption and decryption software"],
+    i2: ["En cours de remplissage",
+        "Work in progress"],
+    
+    i3: ["Messagerie en ligne",
+        "Online messaging"],
+    i4: ["En cours de remplissage",
+        "Work in progress"],
+
+    i5: ["Jeux vidéo de tir à la première personne",
+        "First person shooter video games"],
+    i6: ["En cours de remplissage",
+        "Work in progress"],
      
 
 }
