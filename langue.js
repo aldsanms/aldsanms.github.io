@@ -32,7 +32,7 @@ if(lan!=null){
     
 
 }
-//lan=1;
+lan=1;
 
 
 
