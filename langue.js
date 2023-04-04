@@ -434,13 +434,13 @@ var MonCV={
 
     img01 : ["img/mon.jpg",
     "img/en/my.jpg"],
-    img02 : ["img/cv.jpg",
+    img02 : ["img/CV 5 .jpg",
     "img/en/resume.jpg"],
 
 
     i1: ["-> Afficher au format image <-",
         "-> Display in image format <-"],
-    a1: ["moncv/CV_4_1_comp.pdf",
+    a1: ["moncv/CV 3_0 1_compressed.pdf",
     "moncv/CV_4_1en_comp.pdf"],
     
 
