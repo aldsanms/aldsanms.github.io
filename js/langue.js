@@ -169,8 +169,8 @@ var projets={
     t1:["Sanchez Aldryck - Projets" , "Sanchez Aldryck - Projects"],
     info1:["En savoir plus",""],
 
-    i1:["jgjkngjkdghdkjghkjd",""],
-    i2:["jgjkngjkdghdkjghkjd",""],
+    i1:["Mes Projets","My Projects"],
+    i2:["Bienvenue sur ma page de projets ! Au fil de mes études et de mes expériences professionnelles et personnelles, j'ai eu l'opportunité de travailler sur de nombreux projets passionnants. Que ce soit dans le domaine de l'informatique, de l'électronique, de la mécanique ou encore du design, j'ai toujours été animé par la curiosité et l'envie d'apprendre de nouvelles choses. Sur cette page, je vous invite à découvrir une sélection de mes réalisations. J'espère que ces projets vous inspireront et vous donneront un aperçu de mes compétences et de mon savoir-faire.",""],
 
     i3:["Projets 3D",""],
 
