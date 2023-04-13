@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Sanchez Aldryck - Contact</title>
+
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/contact.css">
+    
+    <script src="../js/langue.js"></script>
+</head>
+<body>
+    <header>
+      <script src="../js/header.js"></script>
+      <script>
+        document.getElementById("header-title-name").innerHTML = contact.t1[lan];
+      </script>
+    </header>
+
+    <section class="contacts">
+        <div class="container">
+          <script>
+            document.write(	
+              '<div class="contact-container">'+
+                '<h2>'+contact.i1[lan]+'</h2>'+
+                '<div class="contact-info">'+
+                  '<div class="contact-item">'+
+                    '<img src="https://img.icons8.com/material-rounded/24/000000/phone.png"/>'+
+                    '<span>'+contact.i2[lan]+' : <a href="tel:+33648333332">+33 648 333 332</a></span>'+
+                  '</div>'+
+                  '<div class="contact-item">'+
+                    '<img src="https://img.icons8.com/material-rounded/24/000000/email.png"/>'+
+                    '<span>Email : <a href="mailto:aldryck.sanchez@viacesi.fr">aldryck.sanchez@viacesi.fr</a></span>'+
+                  '</div>'+
+                  '<div class="contact-item">'+
+                    '<img src="https://img.icons8.com/material-rounded/24/000000/linkedin.png"/>'+
+                    '<span>LinkedIn : <a href="https://www.linkedin.com/in/aldryck-sanchez-157312206/" target="_blank">Aldryck Sanchez</a></span>'+
+                  '</div>'+
+                  '<div class="contact-item">'+
+                    '<img src="https://img.icons8.com/material-rounded/24/000000/github.png"/>'+
+                    '<span>GitHub : <a href="https://github.com/aldsanms" target="_blank">@Aldsanms</a></span>'+
+                  '</div>'+
+                '</div>'+
+              '</div>'
+            
+            )
+          </script>
+        </div>
+    </section>
+    
+    <footer>
+      <script src="../js/footer.js"></script>
+    </footer>
+
+</body>
+</html>

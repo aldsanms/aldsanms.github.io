@@ -1,0 +1,42 @@
+.competences {
+    margin-bottom: 40px;
+    margin-top: 40px;
+  }
+  
+  .competences h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+  
+  .competences h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 18px;
+  }
+  
+  .competences ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .competences li {
+    list-style: none;
+    margin-bottom: 5px;
+    font-size: 16px;
+  }
+  
+  .langages li:before {
+    content: "• ";
+    color: #007bff;
+  }
+  
+  .logiciels li:before {
+    content: "• ";
+    color: #28a745;
+  }
+  
+  .competences-personnelles li:before {
+    content: "• ";
+    color: #6c757d;
+  }
+  

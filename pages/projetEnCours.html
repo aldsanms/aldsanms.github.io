@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Sanchez Aldryck - ProjetEnCours</title>
+
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/projetEnCours.css">
+    
+    <script src="../js/langue.js"></script>
+</head>
+<body>
+    <header>
+      <script src="../js/header.js"></script>
+      <script>
+        document.getElementById("header-title-name").innerHTML = contact.t1[lan];
+      </script>
+    </header>
+
+    <section class="projetEnCours">
+        <div class="container">
+            <script>
+                document.write(	
+                    '<div class="projetEnCours-container">'+
+                        '<h2>'+projetEnCours.i1[lan]+'</h2>'+
+                        '<h2><br></h2>'+
+                        '<a href="../pages/projets.html" class="project-link">'+projetEnCours.i2[lan]+'</a>'+
+                    '</div>'
+                )
+            </script>
+        </div>
+    </section>
+    
+    <footer>
+      <script src="../js/footer.js"></script>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,74 @@
+.parcours {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  
+  .experience h3{
+    margin-top: 30px;
+  }
+  
+  .experience ul{
+    list-style-type: none;
+    margin-left: 0;
+    padding-left: 0;
+  }
+  
+  .experience h4{
+    margin-bottom: 5px;
+  }
+  
+  .experience p,
+  .introduction p{
+    margin-top: 10px;
+    margin-bottom: 0;
+    text-align: justify;
+  }
+
+  .experience li{
+    margin-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+  }
+
+  .imp01{
+    margin-left: 0px;
+    border-left: 3px solid #77ff6dcd;
+    border-top: 1px solid #77ff6dcd;
+    background-color: #77ff6d11;
+  }
+  .imp01 p{font-size: 1.1rem;}
+  .imp01 h4{font-size: 1.2rem;}
+  .imp01 h3{font-size: 1.5rem;}
+  
+  .imp02{
+    margin-left: 40px;
+    border-left: 3px solid #cdffc9;
+    border-top: 1px solid #cdffc9;
+    background-color:#cdffc919;
+  }
+  .imp02 p{font-size: 1.05rem;}
+  .imp02 h4{font-size: 1.15rem;}
+  .imp02 h3{font-size: 1.45rem;}
+
+  .imp03{
+    margin-left: 100px;
+    border-left: 2px solid #bff5ff;
+    border-top: 1px solid #bff5ff;
+    background-color: #bff5ff2a;
+  }
+  .imp03 p{font-size: 1rem;}
+  .imp03 h4{font-size: 1.1rem;}
+  .imp03 h3{font-size: 1.4rem;}
+
+  .imp04{
+    margin-left: 140px;
+    border-left: 2px solid #c3c9ff;
+    border-top: 1px solid #c3c9ff;
+    background-color: #c3c9ff0f;
+  }
+  .imp04 p{font-size: 0.95rem;}
+  .imp04 h4{font-size: 1.05rem;}
+  .imp04 h3{font-size: 1.35rem;}
