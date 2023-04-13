@@ -120,7 +120,8 @@ nav a:hover {
 
 
   background-color: #f2f2f2;
-
+  background-image: url("../img/photoID-SANCHEZ-Aldryck.png");
+  background-size: cover;
 
   border-bottom-right-radius: 60%;
   border-top-right-radius: 20%;
