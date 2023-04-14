@@ -98,8 +98,8 @@ var parcours={
     
     i3:["Expérience professionnelle",""],
 
-    i4:["Formation en école ingénieur au CESI de Toulouse",""],
-    i5:["<strong>[5 ans]</strong> entre 2019 et 2024",""],
+    i4:["Formation en école ingénieur au CESI de Toulouse","Engineering studies at CESI Toulouse."],
+    i5:["<strong>[5 ans]</strong> entre 2019 et 2024","<strong>[5 years]</strong> between 2019 and 2024"],
     i6:["Depuis septembre 2019, je suis une formation d\'ingénieur du CESI de Toulouse. Cette formation de cinq ans me permet de me spécialiser en informatique tout en bénéficiant d\'un apprentissage par projets. Au cours de cette expérience, j\'ai développé mes compétences techniques et informatiques, ainsi que mes capacités à travailler en équipe.",
         ""],
 
