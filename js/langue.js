@@ -174,7 +174,7 @@ var projets={
 
     i3:["Projets 3D",""],
 
-    a1:["../pages/projets3d/p1/p1.html","../pages/projetEnCours.html"],
+    a1:["../pages/projetEnCours.html","../pages/projetEnCours.html"],
     i4:["Modélisation d\'une voiture en 3D",""],
     i5:["Fasciné par l\'industrie automobile et passionné par la modélisation 3D, j\'ai commencé à concevoir une voiture en trois dimensions. Bien qu\'il y ait eu plusieurs choix de logiciels disponibles, tels que SolidWorks, FreeCAD, ou autres, j\'ai opté pour OpenSCAD, un logiciel que j\'affectionne particulièrement. Actuellement, ce projet est toujours en cours, et j\'y travaille durant mes temps libres.",
         ""],
