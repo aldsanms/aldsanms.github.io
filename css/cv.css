@@ -7,3 +7,10 @@
     border: none;
     outline: none;
 }
+
+.cv-img
+{
+	width: 90%;
+	height: auto;
+    margin-left: 5%;
+}

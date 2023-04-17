@@ -86,7 +86,8 @@ var cv={
 
     i1: ["-> Afficher au format image <-",
         "-> Display in image format <-"],
-    a1:["../cv/CV_5_2_Fr.pdf","../cv/CV_5_2_En.pdf"]
+    a1:["../cv/CV_5_2_Fr.pdf","../cv/CV_5_2_Fr.pdf"],
+    img1:["../cv/CV_5_2_Fr.png","../cv/CV_5_2_Fr.png"]
 };
 
 var parcours={

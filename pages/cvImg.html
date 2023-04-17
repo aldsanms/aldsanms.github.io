@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Sanchez Aldryck - CV</title>
+
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/cv.css">
+
+    <script src="../js/langue.js"></script>
+</head>
+<body>
+    <header>
+      <script src="../js/header.js"></script>
+      <script>
+        document.getElementById("header-title-name").innerHTML = cv.t1[lan];
+      </script>
+    </header>
+
+    <section class="cv">
+        <div class="container">
+          <script>
+            document.write(	
+              '<br><br>'+
+                '<img src='+cv.img1[lan]+' class="cv-img" alt="mon cv">'
+            )
+          </script>
+        </div>
+    </section>
+
+    <footer>
+      <script src="../js/footer.js"></script>
+    </footer>
+
+</body>
+</html>
