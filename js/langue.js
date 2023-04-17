@@ -169,56 +169,56 @@ var parcours={
 
 var projets={
     t1:["Sanchez Aldryck - Projets" , "Sanchez Aldryck - Projects"],
-    info1:["En savoir plus",""],
+    info1:["En savoir plus","Find out more"],
 
     i1:["Mes Projets","My Projects"],
     i2:["Bienvenue sur ma page de projets ! Au fil de mes études et de mes expériences professionnelles et personnelles, j'ai eu l'opportunité de travailler sur de nombreux projets passionnants. Que ce soit dans le domaine de l'informatique, de l'électronique, de la mécanique ou encore du design, j'ai toujours été animé par la curiosité et l'envie d'apprendre de nouvelles choses. Sur cette page, je vous invite à découvrir une sélection de mes réalisations. J'espère que ces projets vous inspireront et vous donneront un aperçu de mes compétences et de mon savoir-faire.",
-        ""],
+        "Welcome to my project page! Throughout my studies and my professional and personal experiences, I have had the opportunity to work on many exciting projects. Whether in the field of computing, electronics, mechanics or design, I have always been driven by curiosity and the desire to learn new things. On this page, I invite you to discover a selection of my achievements. I hope these projects will inspire you and give you a glimpse of my skills and expertise."],
 
-    i3:["Projets 3D",""],
+    i3:["Projets 3D","3D Projects"],
 
     a1:["../pages/projetEnCours.html","../pages/projetEnCours.html"],
-    i4:["Modélisation d\'une voiture en 3D",""],
+    i4:["Modélisation d\'une voiture en 3D","Modeling a car in 3D"],
     i5:["Fasciné par l\'industrie automobile et passionné par la modélisation 3D, j\'ai commencé à concevoir une voiture en trois dimensions. Bien qu\'il y ait eu plusieurs choix de logiciels disponibles, tels que SolidWorks, FreeCAD, ou autres, j\'ai opté pour OpenSCAD, un logiciel que j\'affectionne particulièrement. Actuellement, ce projet est toujours en cours, et j\'y travaille durant mes temps libres.",
-        ""],
+        "Fascinated by the automotive industry and passionate about 3D modeling, I started to design a car in three dimensions. Although there have been several choices of software available, such as SolidWorks, FreeCAD, or others, I’ve opted for OpenSCAD, a software I particularly like. Currently, this project is still ongoing, and I’m working on it on my own time."],
 
     a2:["../pages/projetEnCours.html","../pages/projetEnCours.html"],
-    i6:["Casque de vision nocturne binoculaire sur base de Gear VR",""],
+    i6:["Casque de vision nocturne binoculaire sur base de Gear VR","Gear VR based binocular night vision headset"],
     i7:["Avec OpenSCAD j\'ai réalisé un module adaptable à la place du téléphone sur un Samsung Gear VR. Après avoir retiré les filtres infrarouges des objectifs de deux caméras sport, j\'ai conçu un socle pour accueillir les deux écrans et l\'électronique des caméras. Par la suite toutes les pièces ont été imprimées en 3D puis assemblées.",
-        ""],
+        "With OpenSCAD I made an adaptable module instead of the phone on a Samsung Gear VR. After removing the infrared filters from the lenses of two sport cameras, I designed a base to accommodate both screens and the cameras electronics. Then all the parts were 3D printed and assembled."],
 
     a3:["../pages/projetEnCours.html","../pages/projetEnCours.html"],
-    i8:["Châssis et direction d\'une voiture téléguidée.",""],
+    i8:["Châssis et direction d\'une voiture téléguidée.","Chassis and steering of a remotely controlled car."],
     i9:["Un projet de groupe à mon école d\'ingénieur CESI Toulouse nous demandait de concevoir une voiture téléguidée. Son programme est fait sous Arduino, j\'ai réalisé son châssis et sa direction sur OpenSCAD. Ce projet a été très intéressant, j\'ai donc choisi de le présenter.",
-        ""],
+        "A group project at my engineering school CESI Toulouse asked us to design a remotely controlled car. Its program is made under Arduino, I realized its chassis and steering on OpenSCAD. This project was very interesting, so I chose to present it."],
 
-    i10:["Projets logiciels",""],
+    i10:["Projets logiciels","Software projects"],
 
     a4:["../pages/projetEnCours.html","../pages/projetEnCours.html"],
-    i11:["Logiciel de cryptage et décryptage de message",""],
+    i11:["Logiciel de cryptage et décryptage de message","Message encryption and decryption software"],
     i12:["Afin de mieux appréhender le domaine de la cryptographie, j\'ai réalisé un programme de chiffrement et de déchiffrement selon un protocole que je voulais faire entièrement moi-même. L\'application sert à chiffrer certains fichiers ou à communiquer via le système de messagerie en ligne.",
-        ""],
+        "In order to better understand the field of cryptography, I realized an encryption and decryption program according to a protocol that I wanted to make entirely myself. The application is used to encrypt certain files or communicate via the online mail system."],
 
     a5:["../pages/projetEnCours.html","../pages/projetEnCours.html"],
     i13:["",""],
     i14:["",""],
 
-    i15:["Projets web",""],
+    i15:["Projets web","Web projects"],
 
     a6:["../pages/projetEnCours.html","../pages/projetEnCours.html"],
-    i16:["Création d\'un site web personnel",""],
-    i17:["En cours de remplissage",""],
+    i16:["Création d\'un site web personnel","Creating a personal website"],
+    i17:["En cours de remplissage","Page under construction"],
 
     a7:["../pages/projetEnCours.html","../pages/projetEnCours.html"],
-    i18:["Messagerie en ligne",""],
+    i18:["Messagerie en ligne","Online messaging"],
     i19:["Page en cours de création","Page under construction"],
 
     a8:["../pages/projetEnCours.html","../pages/projetEnCours.html"],
-    i20:["Jeux vidéo de carte multijoueur en ligne",""],
+    i20:["Jeux vidéo de carte multijoueur en ligne","Online multiplayer card video games"],
     i21:["Page en cours de création","Page under construction"],
 
     a9:["../pages/projetEnCours.html","../pages/projetEnCours.html"],
-    i22:["Jeux vidéo de tir à la première personne",""],
+    i22:["Jeux vidéo de tir à la première personne","First Person Shooting Video Games"],
     i23:["Page en cours de création","Page under construction"],
 };
 
