@@ -67,7 +67,14 @@ var baniere={
 
 
 var accueil={
-    t1:["Sanchez Aldryck - Accueil" , "Sanchez Aldryck - Home page"]
+    t1:["Sanchez Aldryck - Accueil" , "Sanchez Aldryck - Home page"],
+
+    i1:["Étudiant en 4<sup>éme</sup> année d\'école d\'ingénieur informatique",
+        "Student in 4<sup>th</sup> year of computer engineering school"],
+    i2:["Bonjour et bienvenue sur mon site de présentation. Je suis heureux de vous accueillir et de vous permettre d\'en apprendre davantage sur moi. Ce site a été créé pour vous fournir une vue d\'ensemble de mon parcours, mes réalisations ainsi que mes projets passés et actuels. Vous trouverez également une section dédiée à mon CV pour vous donner une meilleure idée de mes compétences et expériences. Enfin, une page de contact est disponible si vous souhaitez me poser des questions ou discuter de projets potentiels.",
+        "Hello and welcome to my presentation site. I am pleased to welcome you and allow you to learn more about me. This site was created to provide you with an overview of my background, my achievements and my past and current projects. You will also find a section dedicated to my CV to give you a better idea of my skills and experiences. Finally, a contact page is available if you want to ask me questions or discuss potential projects."],
+    i3:["N\'hésitez pas à parcourir mon site et à me contacter si vous avez des questions ou des commentaires.",
+        "Do not hesitate to browse my site and contact me if you have any questions or comments."]
 };
 
 var competences={
