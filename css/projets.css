@@ -7,7 +7,11 @@
 
   .project {
     margin-bottom: 1em;
+    margin-right: 1em;
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
   }
   
   .introduction p{
@@ -67,9 +71,19 @@
     margin-right: 1em;
   }
 
+  .ProjectInfo{
+    flex: 0.99;
+    min-width: 300px;
+  }
+
   #iframePage{
     width: 100%;
     margin : 0;
     overflow: hidden;
     border: 0;
+  }
+
+  main p{
+    margin-top: 10px;
+    text-align: justify;
   }

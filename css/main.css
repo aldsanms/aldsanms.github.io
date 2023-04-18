@@ -176,6 +176,9 @@ footer {
   .footer-section {
     width: 300px;
     margin-bottom: 20px;
+    margin-left: 1em;
+    display: flex;
+    flex-direction: column;
   }
   
   .footer-section h3 {

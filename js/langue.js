@@ -185,7 +185,7 @@ var projets={
 
     i3:["Projets 3D","3D Projects"],
 
-    a1:["../pages/projetEnCours.html","../pages/projetEnCours.html"],
+    a1:["../pages/projets3d/voiture3d/voiture3d.html","../pages/projets3d/voiture3d/voiture3d.html"],
     i4:["Modélisation d\'une voiture en 3D","Modeling a car in 3D"],
     i5:["Fasciné par l\'industrie automobile et passionné par la modélisation 3D, j\'ai commencé à concevoir une voiture en trois dimensions. Bien qu\'il y ait eu plusieurs choix de logiciels disponibles, tels que SolidWorks, FreeCAD, ou autres, j\'ai opté pour OpenSCAD, un logiciel que j\'affectionne particulièrement. Actuellement, ce projet est toujours en cours, et j\'y travaille durant mes temps libres.",
         "Fascinated by the automotive industry and passionate about 3D modeling, I started to design a car in three dimensions. Although there have been several choices of software available, such as SolidWorks, FreeCAD, or others, I’ve opted for OpenSCAD, a software I particularly like. Currently, this project is still ongoing, and I’m working on it on my own time."],
