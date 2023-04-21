@@ -87,3 +87,33 @@
     margin-top: 10px;
     text-align: justify;
   }
+
+  #presentationPics, .pics01, .pics02, .pics03{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+
+  #presentationPics img{
+    width: 50%;
+    min-width: 400px;
+  }
+
+  .pics01 img{
+    width: 30%;
+    min-width: 300px;
+  }
+
+  .pics02 img{
+    width: 20%;
+    min-width: 300px;
+  }
+
+  .pics03 img{
+    width: 20%;
+    min-width: 300px;
+  }
