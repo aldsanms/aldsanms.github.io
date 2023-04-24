@@ -190,12 +190,12 @@ var projets={
     i5:["Fasciné par l\'industrie automobile et passionné par la modélisation 3D, j\'ai commencé à concevoir une voiture en trois dimensions. Bien qu\'il y ait eu plusieurs choix de logiciels disponibles, tels que SolidWorks, FreeCAD, ou autres, j\'ai opté pour OpenSCAD, un logiciel que j\'affectionne particulièrement. Actuellement, ce projet est toujours en cours, et j\'y travaille durant mes temps libres.",
         "Fascinated by the automotive industry and passionate about 3D modeling, I started to design a car in three dimensions. Although there have been several choices of software available, such as SolidWorks, FreeCAD, or others, I’ve opted for OpenSCAD, a software I particularly like. Currently, this project is still ongoing, and I’m working on it on my own time."],
 
-    a2:["../pages/projetEnCours.html","../pages/projetEnCours.html"],
+    a2:["../pages/projets3d/casqueVisionNoc/casqueVr.html","../pages/projets3d/casqueVisionNoc/casqueVr.html"],
     i6:["Casque de vision nocturne binoculaire sur base de Gear VR","Gear VR based binocular night vision headset"],
     i7:["Avec OpenSCAD j\'ai réalisé un module adaptable à la place du téléphone sur un Samsung Gear VR. Après avoir retiré les filtres infrarouges des objectifs de deux caméras sport, j\'ai conçu un socle pour accueillir les deux écrans et l\'électronique des caméras. Par la suite toutes les pièces ont été imprimées en 3D puis assemblées.",
         "With OpenSCAD I made an adaptable module instead of the phone on a Samsung Gear VR. After removing the infrared filters from the lenses of two sport cameras, I designed a base to accommodate both screens and the cameras electronics. Then all the parts were 3D printed and assembled."],
 
-    a3:["../pages/projetEnCours.html","../pages/projetEnCours.html"],
+    a3:["../pages/projets3d/chassisVoiture/voitureRadio.html","../pages/projets3d/chassisVoiture/voitureRadio.html"],
     i8:["Châssis et direction d\'une voiture téléguidée.","Chassis and steering of a remotely controlled car."],
     i9:["Un projet de groupe à mon école d\'ingénieur CESI Toulouse nous demandait de concevoir une voiture téléguidée. Son programme est fait sous Arduino, j\'ai réalisé son châssis et sa direction sur OpenSCAD. Ce projet a été très intéressant, j\'ai donc choisi de le présenter.",
         "A group project at my engineering school CESI Toulouse asked us to design a remotely controlled car. Its program is made under Arduino, I realized its chassis and steering on OpenSCAD. This project was very interesting, so I chose to present it."],
