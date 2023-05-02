@@ -228,6 +228,19 @@ var projets={
     a9:["../pages/projetEnCours.html","../pages/projetEnCours.html"],
     i22:["Jeux vidéo de tir à la première personne","First Person Shooting Video Games"],
     i23:["Page en cours de création","Page under construction"],
+
+    i24:["Projets Arduino","Arduino projects"],
+
+    a10:["../pages/projetsArduino/moto/moto.html","../pages/projetsArduino/moto/moto.html"],
+    i25:["Programme de gestion à distance d'une moto","Motorcycle Remote Management Program"],
+    i26:["Captivé par la moto et la programmation Arduino depuis jeune, j'ai fait un programme et le montage électronique qui permet de gérer à distance une moto. Une application Android envoie des informations à la carte Arduino, elle peut par la suite gérer le contact, le démarrage et le klaxon.",
+        "Captivated by motorcycles and Arduino programming from a very young age, I made a program and the electronic assembly that allows the remote management of a motorcycle. An Android application sends information to the Arduino board, it can then manage the ignition, the start, and the horn."],
+
+    a11:["../pages/projetsArduino/porte/porte.html","../pages/projetsArduino/porte/porte.html"],
+    i27:["Programme de sécurité de porte (RFID, Bluetooth, clavier)","Door security program (RFID, Bluetooth, keyboard)"],
+    i28:["Dans le but de réunir plusieurs programmes Arduino, j'ai réalisé un système de sécurité pour une porte de chambre. Ce système utilise un capteur RFID un module Bluetooth ainsi qu'un clavier 3*4. Une application Android permet sa gestion à distance.",
+        "In order to group together several Arduino programs, I made a security system for a bedroom door. This system uses an RFID sensor, a Bluetooth module, and a 3*4 keypad. An Android application allows its remote management."],
+
 };
 
 var projetEnCours={
