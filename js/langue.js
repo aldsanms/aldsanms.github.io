@@ -200,6 +200,11 @@ var projets={
     i9:["Un projet de groupe à mon école d\'ingénieur CESI Toulouse nous demandait de concevoir une voiture téléguidée. Son programme est fait sous Arduino, j\'ai réalisé son châssis et sa direction sur OpenSCAD. Ce projet a été très intéressant, j\'ai donc choisi de le présenter.",
         "A group project at my engineering school CESI Toulouse asked us to design a remotely controlled car. Its program is made under Arduino, I realized its chassis and steering on OpenSCAD. This project was very interesting, so I chose to present it."],
 
+    a3_1:["../pages/projets3d/tv/tv.html","../pages/projets3d/tv/tv.html"],
+    i8_1:["Télévision interactive","Interactive television"],
+    i9_1:["Durant la création d'une salle TV sur Unreal Engine, après avoir fait un canapé et quelques meubles je me suis intéressé au téléviseur. Le joueur peut changer de chaine, allumer et éteindre la télé. Il est facile d'intégrer de nouvelles chaines (il s'agit d'une vidéo) grâce à une classe 'chaine' qui enlève beaucoup de répétitions inutiles dans le programme.",
+        "When creating a TV room on Unreal Engine, after making a couch and some furniture, I got interested in TV. The player can change channels and turn the TV on and off. It's easy to embed new strings (it's a video) thanks to a 'channel' class which removes many unnecessary repetitions in the program."],
+
     i10:["Projets logiciels","Software projects"],
 
     a4:["../pages/projetsLogiciels/cryptDecrypt/cryptDecrypt.html","../pages/projetsLogiciels/cryptDecrypt/cryptDecrypt.html"],
