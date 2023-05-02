@@ -202,7 +202,7 @@ var projets={
 
     i10:["Projets logiciels","Software projects"],
 
-    a4:["../pages/projetEnCours.html","../pages/projetEnCours.html"],
+    a4:["../pages/projetsLogiciels/cryptDecrypt/cryptDecrypt.html","../pages/projetsLogiciels/cryptDecrypt/cryptDecrypt.html"],
     i11:["Logiciel de cryptage et décryptage de message","Message encryption and decryption software"],
     i12:["Afin de mieux appréhender le domaine de la cryptographie, j\'ai réalisé un programme de chiffrement et de déchiffrement selon un protocole que je voulais faire entièrement moi-même. L\'application sert à chiffrer certains fichiers ou à communiquer via le système de messagerie en ligne.",
         "In order to better understand the field of cryptography, I realized an encryption and decryption program according to a protocol that I wanted to make entirely myself. The application is used to encrypt certain files or communicate via the online mail system."],
