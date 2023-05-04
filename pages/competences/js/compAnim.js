@@ -26,8 +26,8 @@ var graphDivInfo = {
     rowsHeight : 0,
 };
 
-d3.csv("csv/Comp.csv").then(function(data) {  
-    d3.csv("csv/CompInfo.csv").then(function(dataInfo) {  
+d3.csv("competences/csv/Comp.csv").then(function(data) {  
+    d3.csv("competences/csv/CompInfo.csv").then(function(dataInfo) {  
         init(data,dataInfo);
     
         createGraph();
@@ -72,7 +72,7 @@ function createGraph(){
                     "height:"+(graphDivInfo.rowsHeight)+"px;"+
                     "border-radius:"+(graphDivInfo.rowsHeight)+"px;"+
                     "background-color:"+ dataTotInfo.rowsColors[1][element]+";"+
-                    "background-image:url(img/"+element+"_logo.png);"+
+                    "background-image:url(competences/img/"+element+"_logo.png);"+
                     "background-position: center;"+
                     "background-size: contain;"+
                     "background-repeat: no-repeat;"+
@@ -132,55 +132,57 @@ function getDocumentSize(){
 
 function updateGraph(){
     if(prog.index < dataTotInfo.rows){
-    var tableVal = [];
-    var tableValSortedIndex = [];
+        var tableVal = [];
+        var tableValSortedIndex = [];
 
-    var finalSortedColumnName = [];
-    var finalSortedColumnValue = [];
+        var finalSortedColumnName = [];
+        var finalSortedColumnValue = [];
 
-    dataTotInfo.columnsValues.forEach(element => {
-        tableVal.push(dataTot[prog.index][element])
-    });
-    tableValSortedIndex = sortedIndex(tableVal);
+        dataTotInfo.columnsValues.forEach(element => {
+            tableVal.push(dataTot[prog.index][element])
+        });
+        tableValSortedIndex = sortedIndex(tableVal);
 
-    tableValSortedIndex.forEach((element,index) => {
-        for (let i = 0; i < tableValSortedIndex.length; i++) {
-            if(tableValSortedIndex[i]==index){
-                finalSortedColumnName.push(dataTotInfo.columnsValues[i]);
-                finalSortedColumnValue.push(tableVal[i]);
-            }     
-        }
-    });
-    finalSortedColumnName.reverse();
-    finalSortedColumnValue.reverse();
+        tableValSortedIndex.forEach((element,index) => {
+            for (let i = 0; i < tableValSortedIndex.length; i++) {
+                if(tableValSortedIndex[i]==index){
+                    finalSortedColumnName.push(dataTotInfo.columnsValues[i]);
+                    finalSortedColumnValue.push(tableVal[i]);
+                }     
+            }
+        });
+        finalSortedColumnName.reverse();
+        finalSortedColumnValue.reverse();
 
-    finalSortedColumnName.forEach((element,index) => {
-        if(finalSortedColumnValue[index] != 0){
-            d3.select("#"+element+"row").transition()
-            .duration(prog.delay)
-            .ease(prog.transition)
-            .attr("style",[
-                "width:"+graphDivInfo.width+"px;"+
-                "height:"+graphDivInfo.rowsHeight+"px;"+
-                "margin-top:"+((index)*graphDivInfo.rowsHeight)+"px;"+
-                "visibility:"+ "visible;"
-            ]);
+        finalSortedColumnName.forEach((element,index) => {
+            if(finalSortedColumnValue[index] != 0){
+                d3.select("#"+element+"row").transition()
+                .duration(prog.delay)
+                .ease(prog.transition)
+                .attr("style",[
+                    "width:"+graphDivInfo.width+"px;"+
+                    "height:"+graphDivInfo.rowsHeight+"px;"+
+                    "margin-top:"+((index)*graphDivInfo.rowsHeight)+"px;"+
+                    "visibility:"+ "visible;"
+                ]);
 
-            d3.select("#"+element+"rowColor").transition()
-            .duration(prog.delay)
-            .ease(prog.transition)
-            .attr("style",[
-                "width:"+(finalSortedColumnValue[index]*dataTotInfo.xStep)+"px;"+
-                "height:"+(graphDivInfo.rowsHeight-(graphDivInfo.margin/2))+"px;"+
-                "margin-left:"+(graphDivInfo.rowsHeight/2)+"px;"+
-                "border-top-right-radius:"+(graphDivInfo.rowsHeight/3)+"px;"+
-                "border-bottom-right-radius:"+(graphDivInfo.rowsHeight/3)+"px;"+
-                "background:linear-gradient(to right, "+ dataTotInfo.rowsColors[0][element] +","+ dataTotInfo.rowsColors[1][element]  +");"
-            ])
-        }
-    });
+                d3.select("#"+element+"rowColor").transition()
+                .duration(prog.delay)
+                .ease(prog.transition)
+                .attr("style",[
+                    "width:"+(finalSortedColumnValue[index]*dataTotInfo.xStep)+"px;"+
+                    "height:"+(graphDivInfo.rowsHeight-(graphDivInfo.margin/2))+"px;"+
+                    "margin-left:"+(graphDivInfo.rowsHeight/2)+"px;"+
+                    "border-top-right-radius:"+(graphDivInfo.rowsHeight/3)+"px;"+
+                    "border-bottom-right-radius:"+(graphDivInfo.rowsHeight/3)+"px;"+
+                    "background:linear-gradient(to right, "+ dataTotInfo.rowsColors[0][element] +","+ dataTotInfo.rowsColors[1][element]  +");"
+                ])
 
 
+                d3.select("#graphDateText")
+                    .text(new Date(finalSortedColumnValue[finalSortedColumnValue.length-1]).getFullYear())
+            }
+        });
     }else{
         pause();
     }

@@ -9,8 +9,11 @@
 
     <link rel="stylesheet" href="../css/main.css">
     <link rel="stylesheet" href="../css/competances.css">
+
+    <link rel="stylesheet" href="./competences/css/page.css">
     
     <script src="../js/langue.js"></script>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
 </head>
 <body>
     <header>
@@ -30,6 +33,8 @@
               '</div>'+
               '<div class="langages">'+
                 '<h3>Langages de programmation</h3>'+
+                '<div id="graph"></div>'+
+                '<div id="graphDate"><p id="graphDateText"></p></div>'+
                 '<ul>' +
                   '<li>JavaScript - Très bonne maîtrise</li>'+      
                   '<li>HTML/CSS (SCSS/SASS) - Très bonne maîtrise</li>'+
@@ -75,6 +80,7 @@
         </div>
     </section>
 
+    <script src="competences/js/compAnim.js"></script>
     <footer>
       <script src="../js/footer.js"></script>
     </footer>
