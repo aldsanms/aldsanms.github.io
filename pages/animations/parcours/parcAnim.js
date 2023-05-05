@@ -14,7 +14,7 @@ function anim(){
         var width = imp.node().clientWidth;
 
         imp.attr("style",[
-            "width:"+(width/2)+"px;"
+            "width:"+(width/4)+"px;"
         ])
         imp.each(function(d, i) {
             var d = prog.delay*(Math.random() * (1 - 0.5) + 0.5);
