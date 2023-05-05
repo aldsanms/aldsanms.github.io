@@ -38,6 +38,9 @@
     border-left: 3px solid #77ff6dcd;
     border-top: 1px solid #77ff6dcd;
     background-color: #77ff6d11;
+
+    border-top-left-radius: 0.5em;
+    border-bottom-left-radius: 0.5em;
   }
   .imp01 p{font-size: 1.1rem;}
   .imp01 h4{font-size: 1.2rem;}
@@ -48,6 +51,9 @@
     border-left: 3px solid #cdffc9;
     border-top: 1px solid #cdffc9;
     background-color:#cdffc919;
+
+    border-top-left-radius: 0.5em;
+    border-bottom-left-radius: 0.5em;
   }
   .imp02 p{font-size: 1.05rem;}
   .imp02 h4{font-size: 1.15rem;}
@@ -58,6 +64,9 @@
     border-left: 2px solid #bff5ff;
     border-top: 1px solid #bff5ff;
     background-color: #bff5ff2a;
+
+    border-top-left-radius: 0.5em;
+    border-bottom-left-radius: 0.5em;
   }
   .imp03 p{font-size: 1rem;}
   .imp03 h4{font-size: 1.1rem;}
@@ -68,6 +77,9 @@
     border-left: 2px solid #c3c9ff;
     border-top: 1px solid #c3c9ff;
     background-color: #c3c9ff0f;
+
+    border-top-left-radius: 0.5em;
+    border-bottom-left-radius: 0.5em;
   }
   .imp04 p{font-size: 0.95rem;}
   .imp04 h4{font-size: 1.05rem;}
