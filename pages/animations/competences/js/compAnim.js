@@ -1,6 +1,6 @@
 var prog = {
     isStart : false,
-    delay : 300,
+    delay : 400,
     transition : d3.easeLinear,
     index : 0
 };
@@ -26,8 +26,8 @@ var graphDivInfo = {
     rowsHeight : 0,
 };
 
-d3.csv("competences/csv/Comp.csv").then(function(data) {  
-    d3.csv("competences/csv/CompInfo.csv").then(function(dataInfo) {  
+d3.csv("animations/competences/csv/Comp.csv").then(function(data) {  
+    d3.csv("animations/competences/csv/CompInfo.csv").then(function(dataInfo) {  
         init(data,dataInfo);
     
         createGraph();
@@ -53,15 +53,14 @@ function createGraph(){
     dataTot.columns.forEach((element,index) => {
 
         dataTotInfo.columnsValues.push(element);
-        if(index != 0){
-
+        if(index != 0){   
             var ligne = graphDiv.append("div")
                 .attr("class", "graph-row")
                 .attr("id", element+"row")
                 .attr("style",[
                     "width:"+graphDivInfo.width+"px;"+
                     "height:"+graphDivInfo.rowsHeight+"px;"+
-                    "margin-top:"+((index-1)*graphDivInfo.rowsHeight)+"px;"+
+                    "margin-top:"+(graphDivInfo.height)+"px;"+
                     "visibility:"+ "hidden;"
                 ])
 
@@ -72,7 +71,7 @@ function createGraph(){
                     "height:"+(graphDivInfo.rowsHeight)+"px;"+
                     "border-radius:"+(graphDivInfo.rowsHeight)+"px;"+
                     "background-color:"+ dataTotInfo.rowsColors[1][element]+";"+
-                    "background-image:url(competences/img/"+element+"_logo.png);"+
+                    "background-image:url(animations/competences/img/"+element+"_logo.png);"+
                     "background-position: center;"+
                     "background-size: contain;"+
                     "background-repeat: no-repeat;"+
@@ -98,11 +97,50 @@ function createGraph(){
 
         }
     }); 
+
+    graphDiv.append("div")
+        .attr("class", "graph-axes")
+        .attr("id", "graph-axes1")
+        .attr("style",[
+            "margin-left:"+(30)+"px;"
+        ])
+
+    graphDiv.append("div")
+        .attr("class", "graph-axes-med")
+        .attr("id", "graph-axes2")
+        .attr("style",[
+            "margin-left:"+(dataTotInfo.xStep*2.5+10)+"px;"
+        ])
+
+    graphDiv.append("div")
+        .attr("class", "graph-axes")
+        .attr("id", "graph-axes3")
+        .attr("style",[
+            "margin-left:"+(dataTotInfo.xStep*5+10)+"px;"
+        ])
+
+    graphDiv.append("div")
+        .attr("class", "graph-axes-med")
+        .attr("id", "graph-axes4")
+        .attr("style",[
+            "margin-left:"+(dataTotInfo.xStep*7.5+10)+"px;"
+        ])
+    graphDiv.append("div")
+        .attr("class", "graph-axes")
+        .attr("id", "graph-axes5")
+        .attr("style",[
+            "margin-left:"+(dataTotInfo.xStep*10)+"px;"
+        ])
+    
+
 };
 
 function start(){
-    prog.isStart = true;
-    clock();
+    if(!prog.isStart){
+        prog.isStart = true;
+        clock();
+        console.log("ee")
+    }
 };
 
 function pause(){
@@ -127,7 +165,7 @@ function getDocumentSize(){
     if (graphDivInfo.rowsHeight > graphDivInfo.maxRowsWidth) {
         graphDivInfo.rowsHeight = graphDivInfo.maxRowsWidth;
     }
-    dataTotInfo.xStep = graphDivInfo.width / 14;
+    dataTotInfo.xStep = (graphDivInfo.width-110) / 10;
 }
 
 function updateGraph(){
@@ -178,6 +216,27 @@ function updateGraph(){
                     "background:linear-gradient(to right, "+ dataTotInfo.rowsColors[0][element] +","+ dataTotInfo.rowsColors[1][element]  +");"
                 ])
 
+                
+                d3.select("#graph-axes2")
+                    .attr("style",[
+                        "margin-left:"+(dataTotInfo.xStep*2.5+10)+"px;"
+                    ])
+
+                d3.select("#graph-axes3")
+                    .attr("style",[
+                        "margin-left:"+(dataTotInfo.xStep*5+10)+"px;"
+                    ])
+
+                d3.select("#graph-axes4")
+                    .attr("style",[
+                        "margin-left:"+(dataTotInfo.xStep*7.5+10)+"px;"
+                    ])
+                
+                d3.select("#graph-axes5")
+                    .attr("style",[
+                        "margin-left:"+(dataTotInfo.xStep*10)+"px;"
+                    ])
+
 
                 d3.select("#graphDateText")
                     .text(new Date(finalSortedColumnValue[finalSortedColumnValue.length-1]).getFullYear())
@@ -185,6 +244,7 @@ function updateGraph(){
         });
     }else{
         pause();
+        prog.index -= 2;
     }
 };
 
@@ -201,4 +261,6 @@ function reset(){
     graphDiv.html('');
     createGraph();
 }
+
+window.addEventListener('resize', start);
 

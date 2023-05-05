@@ -1,0 +1,103 @@
+#graph{
+    width: 100%;
+    min-width: 400px;
+    height: 20em;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+}
+
+#graphTitles{
+    width: 100%;
+    
+    padding-left: 20px;
+    padding-right: 40px;
+
+    margin-bottom: 0.4em;
+
+    display: flex;
+    justify-content: space-between;
+
+    font-size: 1em;
+    font-weight: bold;
+}
+
+#graphTitlesLeft{
+    width: 30%;
+    text-align: start;
+    align-self: center;
+}
+#graphTitlesCenter{
+    margin-left: -30px;
+    width: 30%;
+    text-align: center;
+    align-self: center;
+}
+#graphTitlesRight{
+    width: 30%;
+    text-align: right;
+    align-self: center;
+}
+
+.graph-row{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.graph-row-stay{
+    background-color: rgba(0, 0, 0, 0);
+    flex:1;
+    display: flex;
+    align-items: center;
+    padding-left: 0.5em;
+}
+
+#graphDate{
+    width: 100%;
+    min-width: 400px;
+    height: 2em;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    
+
+    padding-right: 10%;
+    margin-bottom: 2em;
+}
+#graphDateText{
+    font-size: 2em;
+    font-weight: bold;
+}
+#graphDate h4{
+    font-size: 2em;
+    font-weight: bold;
+
+    margin-right: 0.5em;
+}
+
+.graph-axes{
+    width: 3px;
+    height: 20em;
+
+    margin-top: -3px;
+    border-radius: 50px;
+
+    background-color: rgba(67, 67, 67, 0.498);
+
+    position: absolute;
+}
+
+.graph-axes-med{
+    width: 2px;
+    height: 20em;
+
+    margin-top: -3px;
+    border-radius: 50px;
+
+    background-color: rgba(67, 67, 67, 0.498);
+
+    position: absolute;
+}
