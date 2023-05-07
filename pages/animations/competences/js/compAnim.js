@@ -26,20 +26,21 @@ var graphDivInfo = {
     rowsHeight : 0,
 };
 
+
 d3.csv("animations/competences/csv/Comp.csv").then(function(data) {  
     d3.csv("animations/competences/csv/CompInfo.csv").then(function(dataInfo) {  
-        init(data,dataInfo);
-    
-        createGraph();
-    
-        start();
+            init(data,dataInfo);
+            createGraph();
+            start();  
     });   
 });
 
 
+  
+
 function init(data,dataInfo){
     dataTot = data;
-
+    
     dataTotInfo.rowsColors = dataInfo;
 
     dataTotInfo.rows = data.length;
@@ -139,7 +140,6 @@ function start(){
     if(!prog.isStart){
         prog.isStart = true;
         clock();
-        console.log("ee")
     }
 };
 
@@ -169,6 +169,7 @@ function getDocumentSize(){
 }
 
 function updateGraph(){
+    if(dataTotInfo.rows == 0)window.location.reload();
     if(prog.index < dataTotInfo.rows){
         var tableVal = [];
         var tableValSortedIndex = [];
