@@ -29,6 +29,12 @@
               '<embed src='+cv.a1[lan]+' class="cv-pdf"><br><br>'+
               '<a href="cvImg.html" class="imgcv">'+cv.i1[lan]+'</a><br><br>' 
             )
+
+            var isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+
+            if (isMobile){
+              window.location.href = "cvImg.html";
+            }
           </script>
         </div>
     </section>
