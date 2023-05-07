@@ -72,7 +72,7 @@ function createGraph(){
                     "height:"+(graphDivInfo.rowsHeight)+"px;"+
                     "border-radius:"+(graphDivInfo.rowsHeight)+"px;"+
                     "background-color:"+ dataTotInfo.rowsColors[1][element]+";"+
-                    "background-image:url(animations/competences/img/"+element+"_logo.png);"+
+                    "background-image:url(animations/competences/img/"+element+"_logo.jpg);"+
                     "background-position: center;"+
                     "background-size: contain;"+
                     "background-repeat: no-repeat;"+
