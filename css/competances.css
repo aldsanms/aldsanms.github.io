@@ -42,4 +42,9 @@
     content: "• ";
     color: #6c757d;
   }
+
+  .langues li:before {
+    content: "• ";
+    color: #ffb53d;
+  }
   
