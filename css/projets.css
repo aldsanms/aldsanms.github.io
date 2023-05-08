@@ -32,12 +32,16 @@
     padding-left: 1em;
     border-left: 3px solid #c8c8c8cd;
     border-top: 2px solid #c8c8c8cd;
+
+    border-top-left-radius: 1em;
   }
   
   .project-section-title {
     font-size: 1.5em;
     font-weight: bold;
     margin-bottom: 0.5em;
+
+    border-bottom: 1px solid #ccc;
   }
   
   .project-title {
