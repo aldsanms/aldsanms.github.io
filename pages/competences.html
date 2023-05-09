@@ -28,71 +28,56 @@
           <script>
             document.write(
               '<div class="introduction">'+
-                '<h2>Mes compétences</h2>'+
-                '<p>Sur ma page de compétences, vous trouverez les compétences que j\'ai acquises avec ma passion pour l\'informatique, avec notamment le développement de logiciels, la gestion de projets, l\'analyse de données et la résolution de problèmes. J\'ai acquis ces compétences grâce à mes études et mes projets personnels, et je suis constamment à la recherche de nouvelles opportunités pour développer mes connaissances et améliorer mes compétences.</p>'+
+                '<h2>'+competences.i1[lan]+'</h2>'+
+                '<p>'+competences.i2[lan]+'</p>'+
               '</div>'+
               '<div class="langages">'+
-                '<h3>Langages de programmation</h3>'+
+                '<h3>'+competences.i3[lan]+'</h3>'+
                 '<div id="graphTitles">'+
-                  '<div id="graphTitlesLeft">'+ "Notions de base" +'</div>'+
-                  '<div id="graphTitlesCenter">'+ "Bonne maîtrise" +'</div>'+
-                  '<div id="graphTitlesRight">'+ "Très bonne maîtrise" +'</div>'+
+                  '<div id="graphTitlesLeft">'+ competences.i4[lan] +'</div>'+
+                  '<div id="graphTitlesCenter">'+ competences.i5[lan] +'</div>'+
+                  '<div id="graphTitlesRight">'+ competences.i6[lan] +'</div>'+
                 '</div>'+
                 '<div id="graph"></div>'+
-                '<div id="graphDate"><h4>Année:</h4><p id="graphDateText"></p></div>'+
-                /*
-                '<ul>' +
-                  '<li>JavaScript - Très bonne maîtrise</li>'+      
-                  '<li>HTML/CSS (SCSS/SASS) - Très bonne maîtrise</li>'+
-                  '<li>PHP - Très bonne maîtrise</li>'+
-                  '<li>C - Très bonne maîtrise</li>'+
-                  '<li>C++ - Très bonne maîtrise</li>'+          
-                  '<li>Arduino - Très bonne maîtrise</li>'+            
-                  '<li>C# - Bonne maîtrise</li>'+
-                  '<li>R - Bonne maîtrise</li>'+
-                  '<li>SQL - Bonne maîtrise</li>'+
-                  '<li>Python - Notions de base</li>'+
-                  '<li>Java - Notions de base</li>'+
-                '</ul>'+
-                */
+                '<div id="graphDate"><h4>'+ competences.i7[lan] +':</h4><p id="graphDateText"></p></div>'+
               '</div>'+
             
               '<div class="logiciels">'+
-                '<h3>Logiciels</h3>'+
+                '<h3>'+ competences.i8[lan] +'</h3>'+
                 '<ul>'+
-                  '<li>Arduino - Très bonne maîtrise</li>'+
-                  '<li>OpenSCAD - Très bonne maîtrise</li>'+
-                  '<li>Photoshop - Très bonne maîtrise</li>'+
-                  '<li>Unreal Engine - Très bonne maîtrise</li>'+
-                  '<li>Word/Excel - Très bonne maîtrise</li>'+
-                  '<li>Visual Studio Code - Bonne maîtrise</li>'+
-                  '<li>Photoshop - Bonne maîtrise</li>'+
-                  '<li>Blender - Bonne maîtrise</li>'+
-                  '<li>Solidworks - Bonne maîtrise</li>'+
-                  '<li>GitHub - Bonne maîtrise</li>'+
-                  '<li>Pack Office - Bonne maîtrise</li>'+
+                  '<li>Arduino - '+ competences.i6[lan] +'</li>'+
+                  '<li>OpenSCAD - '+ competences.i6[lan] +'</li>'+
+                  '<li>Photoshop - '+ competences.i6[lan] +'</li>'+
+                  '<li>Unreal Engine - '+ competences.i6[lan] +'</li>'+
+                  '<li>Word/Excel - '+ competences.i6[lan] +'</li>'+
+                  '<li>Visual Studio Code - '+ competences.i5[lan] +'</li>'+
+                  '<li>Photoshop - '+ competences.i5[lan] +'</li>'+
+                  '<li>Blender - '+ competences.i5[lan] +'</li>'+
+                  '<li>Solidworks - '+ competences.i5[lan] +'</li>'+
+                  '<li>GitHub - '+ competences.i5[lan] +'</li>'+
+                  '<li>Pack Office - '+ competences.i5[lan] +'</li>'+
                 '</ul>'+
               '</div>'+
             
               '<div class="competences-personnelles">'+
-                '<h3>Compétences personnelles</h3>'+
+                '<h3>'+ competences.i9[lan] +'</h3>'+
                 '<ul>'+
-                  '<li>Ambitieux</li>'+
-                  '<li>Rigoureux</li>'+
-                  '<li>Créatif</li>'+
-                  '<li>Sens pédagogique</li>'+
-                  '<li>Esprit d\'équipe</li>'+
-                  '<li>Autonome</li>'+
-                  '<li>Capacité d\'adaptation</li>'+
+                  '<li>'+ competences.i10[lan] +'</li>'+
+                  '<li>'+ competences.i11[lan] +'</li>'+
+                  '<li>'+ competences.i12[lan] +'</li>'+
+                  '<li>'+ competences.i13[lan] +'</li>'+
+                  '<li>'+ competences.i14[lan] +'</li>'+
+                  '<li>'+ competences.i15[lan] +'</li>'+
+                  '<li>'+ competences.i16[lan] +'</li>'+
                 '</ul>'+
               '</div>'+
 
               '<div class="langues">'+
-                '<h3>Langues</h3>'+
+                '<h3>'+ competences.i17[lan] +'</h3>'+
                 '<ul>'+
-                  '<li>Français - Langue natale</li>'+
-                  '<li>Anglais - Niveau B2 TOEIC</li>'+
-                  '<li>Espagnol - Bonne maîtrise</li>'+
+                  '<li>'+ competences.i18[lan] +'</li>'+
+                  '<li>'+ competences.i19[lan] +'</li>'+
+                  '<li>'+ competences.i20[lan] +'</li>'+
                 '</ul>'+
               '</div>'
             )

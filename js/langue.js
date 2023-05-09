@@ -78,7 +78,37 @@ var accueil={
 };
 
 var competences={
-    t1:["Sanchez Aldryck - Compétences" , "Sanchez Aldryck - Skills"]
+    t1:["Sanchez Aldryck - Compétences" , "Sanchez Aldryck - Skills"],
+
+    i1:["Mes compétences","My skills"],
+    i2:["Sur ma page de compétences, vous trouverez les compétences que j\'ai acquises avec ma passion pour l\'informatique, avec notamment le développement de logiciels, la gestion de projets, l\'analyse de données et la résolution de problèmes. J\'ai acquis ces compétences grâce à mes études et mes projets personnels, et je suis constamment à la recherche de nouvelles opportunités pour développer mes connaissances et améliorer mes compétences.",
+        "On my skills page, you will find the skills I have acquired with my passion for computer science, including software development, project management, data analysis and problem solving. I have acquired these skills through my studies and personal projects, and I am constantly looking for new opportunities to develop my knowledge and improve my skills."],
+
+    i3:["Langages de programmation","Programming languages"],
+    
+    i4:["Notions de base","Basic knowledge"],
+    i5:["Bonne maîtrise","Good knowledge"],
+    i6:["Très bonne maîtrise","Excellent knowledge"],
+
+    i7:["Année","Year"],
+
+    i8:["Logiciels","Software"],
+
+    i9:["Compétences personnelles","Personal skills"],
+    
+    i10:["Ambitieux","Ambitious"],
+    i11:["Rigoureux","Rigorous"],
+    i12:["Créatif","Creative"],
+    i13:["Sens pédagogique","Pedagogical skills"],
+    i14:["Esprit d\'équipe","Team spirit"],
+    i15:["Autonome","Autonomous"],
+    i16:["Capacité d\'adaptation","Adaptability"],
+    
+    i17:["Langues","Languages"],
+
+    i18:["Français - Langue natale","French - Native language"],
+    i19:["Anglais - Niveau B2 TOEIC","English - Level B2 TOEIC"],
+    i20:["Espagnol - Bonne maîtrise","Spanish - Good Skills"]
 };
 
 var contact={
@@ -252,7 +282,7 @@ var projetEnCours={
 
     i1:["Page en cours de création","Page under construction"],
     i2:["Retour aux projets","Back to projects"]
-}
+};
 
 var footer={
 
