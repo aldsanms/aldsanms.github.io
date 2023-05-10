@@ -1,6 +1,8 @@
 var txt01 = {
     ele1 : {},
     ele2 : {},
+    ele1div : {},
+    ele2div : {},
     text01 : "",
     text02 : "",
     css : []
@@ -14,6 +16,11 @@ var prog = {
     index : 0
 };
 
+var width = d3.select("#hero-content-info").node().clientWidth;
+var height = d3.select("#hero-content-info").node().clientHeight;
+
+
+
 var pic = d3.select("#hero-content-pic");
 pic.style("opacity", 0);
 
@@ -24,6 +31,7 @@ pic.transition()
 
 txt01.ele1 = d3.select("#hero-content-info-txt01");
 txt01.ele2 = d3.select("#hero-content-info-txt02");
+
 txt01.text01 = txt01.ele1.text();
 txt01.text02 = txt01.ele2.text();
 

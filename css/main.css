@@ -139,8 +139,11 @@ nav a:hover {
   display: flex;
   flex-direction: column;
 
-  justify-content: center;
+  justify-content: flex-start;
   align-items: flex-start;
+
+  padding-top: 6em;
+  margin-bottom: 6em;
 
   text-align: justify;
 }
