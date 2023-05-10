@@ -16,11 +16,6 @@ var prog = {
     index : 0
 };
 
-var width = d3.select("#hero-content-info").node().clientWidth;
-var height = d3.select("#hero-content-info").node().clientHeight;
-
-
-
 var pic = d3.select("#hero-content-pic");
 pic.style("opacity", 0);
 
