@@ -9,7 +9,7 @@ var txt01 = {
 var prog = {
     isStart : false,
     delayL : 10,
-    delayPic : 1500,
+    delayPic : 1000,
     transition : d3.easeLinear,
     index : 0
 };
