@@ -158,6 +158,10 @@ nav a:hover {
   background-color: #f2f2f2;
 }
 
+#hero-content-info p{
+  padding-right: 1em;
+}
+
 /* Footer section style */
 footer {
     background-color: #f2f2f2;
