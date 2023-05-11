@@ -30,7 +30,7 @@ function changeLang(l){
         document.cookie = "Langue="+l;
         location.reload();
     }else{
-        createModal("Langue="+l);
+        createModal(l);
     }   
 }
 
@@ -60,10 +60,10 @@ function createModal(l){
     closeBtn.innerHTML = '&times;';
   
     const h2 = document.createElement('h2');
-    h2.textContent = 'Autorisation des cookies';
+    h2.textContent = cookies.i1[l];
   
     const p = document.createElement('p');
-    p.textContent = "Nous utilisons des cookies pour enregistrer votre sélection de langue. Veuillez autoriser les cookies pour une expérience optimale.";
+    p.textContent = cookies.i2[l];
   
     const btnGroup = document.createElement('div');
     btnGroup.className = 'btn-group';
@@ -71,12 +71,12 @@ function createModal(l){
     const btnAccept = document.createElement('button');
     btnAccept.id = 'btn-accept';
     btnAccept.className = 'btn';
-    btnAccept.textContent = 'Accepter les cookies';
+    btnAccept.textContent = cookies.i3[l];
   
     const btnDecline = document.createElement('button');
     btnDecline.id = 'btn-decline';
     btnDecline.className = 'btn';
-    btnDecline.textContent = 'Refuser les cookies';
+    btnDecline.textContent = cookies.i4[l];
   
     btnGroup.appendChild(btnAccept);
     btnGroup.appendChild(btnDecline);
@@ -107,10 +107,18 @@ function declineCookies(){
 }
 
 function acceptCookies(l){
-    document.cookie = l;
+    document.cookie = "Langue="+l;
     location.reload();
 }
 
+
+var cookies = {
+    i1: ["Autorisation des cookies","Allowing cookies"],
+    i2: ["J'utilise des cookies pour enregistrer votre sélection de langue. Veuillez autoriser les cookies pour une expérience optimale.",
+        "I use cookies to save your language selection. Please allow cookies for an optimal experience."],
+    i3: ["Accepter les cookies","Allow cookies"],
+    i4: ["Refuser les cookies","Decline cookies"]
+}
 
 var baniere={
 
