@@ -30,8 +30,7 @@ function changeLang(l){
         document.cookie = "Langue="+l;
         location.reload();
     }else{
-        document.cookie = "Langue="+l;
-        location.reload();
+        createModal("Langue="+l);
     }   
 }
 
@@ -47,9 +46,70 @@ function getCookie(name) {
     return null;
 }
 
+function createModal(l){
+    const cookieModal = document.createElement('div');
+    cookieModal.id = 'cookie-modal';
+    cookieModal.className = 'modal';
+  
+    const modalContent = document.createElement('div');
+    modalContent.className = 'modal-content';
+  
+    const closeBtn = document.createElement('span');
+    closeBtn.id = 'close-btn';
+    closeBtn.className = 'close-btn';
+    closeBtn.innerHTML = '&times;';
+  
+    const h2 = document.createElement('h2');
+    h2.textContent = 'Autorisation des cookies';
+  
+    const p = document.createElement('p');
+    p.textContent = "Nous utilisons des cookies pour enregistrer votre sélection de langue. Veuillez autoriser les cookies pour une expérience optimale.";
+  
+    const btnGroup = document.createElement('div');
+    btnGroup.className = 'btn-group';
+  
+    const btnAccept = document.createElement('button');
+    btnAccept.id = 'btn-accept';
+    btnAccept.className = 'btn';
+    btnAccept.textContent = 'Accepter les cookies';
+  
+    const btnDecline = document.createElement('button');
+    btnDecline.id = 'btn-decline';
+    btnDecline.className = 'btn';
+    btnDecline.textContent = 'Refuser les cookies';
+  
+    btnGroup.appendChild(btnAccept);
+    btnGroup.appendChild(btnDecline);
+  
+    modalContent.appendChild(closeBtn);
+    modalContent.appendChild(h2);
+    modalContent.appendChild(p);
+    modalContent.appendChild(btnGroup);
+  
+    cookieModal.appendChild(modalContent);
+  
+    document.body.appendChild(cookieModal);
 
+    closeBtn.addEventListener('click', dropModal);
+    btnDecline.addEventListener('click', declineCookies);
+    btnAccept.addEventListener('click', function() {
+        acceptCookies(l);
+    });
+}
 
+function dropModal() {
+    const modal = document.getElementById('cookie-modal');
+    modal.remove();
+}
 
+function declineCookies(){
+    dropModal();
+}
+
+function acceptCookies(l){
+    document.cookie = l;
+    location.reload();
+}
 
 
 var baniere={
