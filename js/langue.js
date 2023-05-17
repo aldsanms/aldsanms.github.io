@@ -423,6 +423,24 @@ var pArduino = {
     }
 }
 
+var pLogiciels = {
+    cryptDecrypt:{
+        i1:["Logiciel de cryptage et décryptage de messages.","Software for encrypting and decrypting messages."],
+        i2:["Afin de mieux appréhender le domaine de la cryptographie, j\'ai réalisé un programme de chiffrement et de déchiffrement selon un protocole que je voulais faire entièrement moi-même.",
+            "In order to better understand the field of cryptography, I realized an encryption and decryption program according to a protocol that I wanted to make entirely myself."],
+        i3:["Tout d\'abord, je voulais montrer mes compétences dans Excel, j\'ai donc créé un outil de cryptage et de décryptage dans la commande Excel. Le dossier était très lourd, et les calculs prenaient beaucoup de temps.",
+            "First of all, I wanted to show my skills in Excel, so I created an encryption and decryption tool in the Excel command. The file was very cumbersome, and the calculations took a long time."],
+        i4:["Alors j\'ai décidé de le coder en C pour pouvoir en faire une application utilisable. Cela m\'a permis d\'apprendre de nouvelles fonctionnalités du langage C telles que l\'écriture et la lecture de fichiers ou les façons de lire et d\'écrire des caractères spéciaux.",
+            "So I decided to code it in C to make it a usable application. This allowed me to learn new features of the C language such as writing and reading files or ways to read and write special characters."],
+        i5:["Le programme génère d\'abord trois clés pseudo-aléatoires qui seront utilisées plus tard. Puis le message à chiffrer est demandé, et des calculs sont effectués avec les clés et le message. Enfin, le message crypté est ensuite mélangé et enregistré dans un fichier.",
+            "The program first generates three pseudo-random keys that will be used later. Then the message to be encrypted is requested, and calculations are made with the keys and the message. Finally, the encrypted message is then mixed and saved in a file."],
+        i6:["Je l\'ai ensuite traduit en PHP pour faciliter son intégration sur le web pour ma première messagerie en ligne.",
+            "I then translated it into PHP to facilitate its integration on the web for my first online email."],
+    }
+}
+
+
+
 var projetEnCours={
 
     i1:["Page en cours de création","Page under construction"],
