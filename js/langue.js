@@ -346,7 +346,7 @@ var projets={
 
 };
 
-p3d = {
+var p3d = {
     casqVisNoc : {
         i1:["Casque de vision nocturne binoculaire sur base de Gear VR.","Binocular night vision headset based on Gear VR."],
         i2:["Ce projet consiste à fabriquer un module à vision nocturne, il est dimensionné pour s\'installer à la place d\'un téléphone sur un casque VR. J\'ai choisi un Gear VR pour la base car il permet de bien régler la distance entre les écrans et les lentilles.",
@@ -396,6 +396,30 @@ p3d = {
             "Finally, I realized the body base. This step can be the most complex, as the body of a car often has particular shapes and requires many iterations to achieve the desired result. Then I will continue on a modeling software more adapted to the complex form like Blender with which the calculation times are clearly shortened."],
         i9:["Bien que ce projet ne soit pas encore terminé, je continue de travailler dessus dans mes temps libre. Ce projet est une excellente opportunité pour moi d\'améliorer mes compétences en modélisation 3D et de développer un projet personnel dont je suis vraiment fier.",
             "Although this project is not yet complete, I continue to work on it in my free time. This project is a great opportunity for me to improve my 3D modeling skills and develop a personal project that I am really proud of."],
+    }
+}
+
+var pArduino = {
+    moto:{
+        i1:["Programme de gestion à distance d\'une moto.","Motorcycle remote management program."],
+        i2:["Captivé par la moto et la programmation Arduino depuis jeune, j\'ai fait un programme et le montage électronique qui permet de gérer à distance une moto. Une application Android envoie des informations à la carte Arduino, elle peut par la suite gérer le contact, le démarrage et le klaxon.",
+            "Captivated by the bike and the Arduino programming since young, I made a program and electronic assembly that allows to manage a motorcycle remotely. An Android application sends information to the Arduino board, it can then manage the contact, start and horn."],
+        i3:["Ce projet m\'a beaucoup plus, j\'avais déjà fait le même montage sur une autre moto mais avec des relais radio. Celui-ci utilise une carte Arduino des relais et un module Bluetooth.",
+            "This project is really important to me, I had already done the same assembly on another motorcycle but with radio relays. It uses an Arduino relay board and a Bluetooth module."],
+        i4:["Avec une application Android nous pouvons nous connecter à la carte Arduino et contrôler les fonctionnalités de la moto comme : Les feux, le démarrage et le klaxon. Le tout est présenté dans une vidéo sur le lien précèdent.",
+            "With an Android app we can connect to the Arduino board and control the features of the bike like: Lights, start and horn. Everything is presented in a video on the above link."],
+    },
+
+    porte:{
+        i1:["Programme de sécurité d\'une porte(RFID,bluetooth,Clavier)","Door security program (RFID,bluetooth,Keyboard)"],
+        i2:["Dans le but de réunir plusieurs programmes Arduino, j\'ai réalisé un système de sécurité pour une porte de chambre. Ce système utilise un capteur RFID un module Bluetooth ainsi qu\'un clavier 3*4. Une application Android permet sa gestion à distance.",
+            "In order to bring together several Arduino programs, I realized a security system for a bedroom door. This system uses an RFID sensor a Bluetooth module as well as a 3*4 keyboard. An Android application allows its remote management."],
+        i3:["J\'ai réalisé ce projet dans le but de réunir plusieurs programmes Arduino. C\'est un système de sécurité pour une porte de chambre, il utilise un capteur RFID un module Bluetooth ainsi qu\'un clavier 3*4.",
+            "I carried out this project in order to bring together several Arduino programs. It is a security system for a bedroom door, it uses an RFID sensor a Bluetooth module as well as a 3*4 keyboard."],
+        i4:["Avec une application Android on peut se connecter à la carte Arduino et interagir avec les fonctionnalités de la porte. Il est donc possible à distance (portée Bluetooth) de verrouiller ou déverrouiller la porte ou de gérer l\'alarme. Le capteur RFID lit des badges et des carte RFID en 13.56MHz. Un badge et un code administrateur sont enregistrés dans le programme, ils donnent accès au menu qui permet d\'enregistrer un code ou un badge invité temporaire qui est supprimé après 24 heures. D\'autres badges sont enregistrés mais sans les droits administrateurs.",
+            "With an Android application you can connect to the Arduino board and interact with the door features. It is therefore possible remotely (Bluetooth range) to lock or unlock the door or manage the alarm. The RFID sensor reads badges and RFID cards in 13.56MHz. A badge and an administrator code are registered in the program, they give access to the menu that allows to register a temporary guest code or badge that is deleted after 24 hours. Other badges are registered but without administrator rights."],
+        i5:["Le verrouillage et le déverrouillage se fait avec un loquet entrainé par un servomoteur. Tout est visible dans la vidéo en lien plus haut.",
+            "Locking and unlocking is done with a latch driven by a servomotor. Everything is visible in the video link above."],
     }
 }
 

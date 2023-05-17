@@ -16,34 +16,36 @@
 
     <section class="projets">
         <div class="container">
+            <script>
+                document.write(	
+                    '<main>'+
+                        '<h1>'+pArduino.porte.i1[lan]+'</h1>'+
 
-            <main>
-                <h1>Programme de sécurité d'une porte(RFID,bluetooth,Clavier)</h1>
+                        '<p>'+pArduino.porte.i2[lan]+'</p>'+
 
-                <p>Dans le but de réunir plusieurs programmes Arduino, j'ai réalisé un système de sécurité pour une porte de chambre. Ce système utilise un capteur RFID un module Bluetooth ainsi qu'un clavier 3*4. Une application Android permet sa gestion à distance.</p>
+                        '<div id="presentationPics">'+
+                            '<img src="../../../img/projet/projetsArduino/porte/01.png" alt="description de l\'image">'+
+                        '</div>'+
 
-                <div id="presentationPics">
-                    <img src="../../../img/projet/projetsArduino/porte/01.png" alt="description de l'image">
-                </div>
+                        '<p>'+pArduino.porte.i3[lan]+'</p>'+
 
-                <p>J'ai réalisé ce projet dans le but de réunir plusieurs programmes Arduino. C'est un système de sécurité pour une porte de chambre, il utilise un capteur RFID un module Bluetooth ainsi qu'un clavier 3*4.</p>
+                        '<div class="pics03">'+
+                            '<img src="../../../img/projet/projetsArduino/porte/0201.png" alt="description de l\'image">'+
+                            '<img src="../../../img/projet/projetsArduino/porte/0202.png" alt="description de l\'image">'+
+                            '<img src="../../../img/projet/projetsArduino/porte/0203.png" alt="description de l\'image">'+
+                        '</div>'+
 
-                <div class="pics03">
-                    <img src="../../../img/projet/projetsArduino/porte/0201.png" alt="description de l'image">
-                    <img src="../../../img/projet/projetsArduino/porte/0202.png" alt="description de l'image">
-                    <img src="../../../img/projet/projetsArduino/porte/0203.png" alt="description de l'image">
-                </div>
+                        '<p>'+pArduino.porte.i4[lan]+'</p>'+
 
-                <p>Avec une application Android on peut se connecter à la carte Arduino et interagir avec les fonctionnalités de la porte. Il est donc possible à distance (portée Bluetooth) de verrouiller ou déverrouiller la porte ou de gérer l'alarme. Le capteur RFID lit des badges et des carte RFID en 13.56MHz. Un badge et un code administrateur sont enregistrés dans le programme, ils donnent accès au menu qui permet d'enregistrer un code ou un badge invité temporaire qui est supprimé après 24 heures. D'autres badges sont enregistrés mais sans les droits administrateurs.</p>
+                        '<p>'+pArduino.porte.i5[lan]+'</p>'+
 
-                <p>Le verrouillage et le déverrouillage se fait avec un loquet entrainé par un servomoteur. Tout est visible dans la vidéo en lien plus haut.</p>
+                        '<div class="pics01">'+
+                            '<img src="../../../img/projet/projetsArduino/porte/03.png" alt="description de l\'image">'+
+                        '</div>'+
 
-                <div class="pics01">
-                    <img src="../../../img/projet/projetsArduino/porte/03.png" alt="description de l'image">
-                </div>
-
-                </main>
-
+                    '</main>'
+                )
+            </script>
         </div>
     </section>
 
