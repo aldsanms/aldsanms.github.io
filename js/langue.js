@@ -350,10 +350,10 @@ var p3d = {
     casqVisNoc : {
         i1:["Casque de vision nocturne binoculaire sur base de Gear VR.","Binocular night vision headset based on Gear VR."],
         i2:["Ce projet consiste à fabriquer un module à vision nocturne, il est dimensionné pour s\'installer à la place d\'un téléphone sur un casque VR. J\'ai choisi un Gear VR pour la base car il permet de bien régler la distance entre les écrans et les lentilles.",
-            "This project consists in manufacturing a night vision module, it is dimensioned to be installed instead of a phone on a VR headset. I chose a Gear VR for the base because it allows you to adjust the distance between the screens and the lenses."],
+            "This project consists in manufacturing a night vision module, it is dimensioned to be installed instead of a phone on a VR headset. I chose a Gear VR for the base because it allows us to adjust the distance between the screens and the lenses."],
         
         i3:["Le module est composé de deux cameras sport avec écrans que j\'ai entièrement démonté et modifié. Son alimentation est apportée par une power bank 5V 2A qui suffit pour supporter la consommation des caméras et des bandeau LED infrarouge. Pour les LED j\'ai choisi une longueur d\'onde de 940nm qui est peu visible à l\'oeil. Je me sers aussi d\'une lampe torche à main de 850nm qui donne une meilleure visibilité.",
-            "The module is composed of two sport cameras with screens that I completely disassembled and modified. Its power is supplied by a power bank 5V 2A which is sufficient to support the consumption of cameras and infrared LED strips. For LEDs I have chosen a wavelength of 940nm which is not very visible to the eye. I also use an 850nm hand torch that gives better visibility."],
+            "The module is composed of two sport cameras with screens that I completely disassembled and modified. Its power is supplied by a power bank 5V 2A which is sufficient to support the consumption of cameras and infrared LED strips. For the LED, I have chosen a wavelength of 940nm which is not very visible to the eye. I also use an 850nm hand torch in order to gives better visibility."],
         
         i4:["Le socle et la boite du module sont imprimés en PLA, et sont tous les deux réalisés sur OpenSCAD.","The base and the module box are printed in PLA, and are both made on OpenSCAD."],
         
@@ -363,50 +363,50 @@ var p3d = {
 
     voitureRadio : {
         i1:["Voiture téléguidée.","Radio-controlled car."],
-        i2:["C\'est un projet à réaliser en groupe à mon l\'école d\'ingenieur CESI de Toulouse. Il nous été demandé de consevoir une voiture téléguidée réspectant des contraintes de vitesse, de poids et de dimentions.",
-            "It is a project to be carried out in group at my CESI engineering school in Toulouse. We were asked to provide a remote-controlled car with speed, weight and size constraints."],
+        i2:["Ce projet s\'est fait en groupe à mon l\'école d\'ingenieur CESI de Toulouse. Il nous était demandé de concevoir une voiture téléguidée respectant des contraintes de vitesse, de poids et de dimensions.",
+            "This project to be carried out in group at my CESI engineering school in Toulouse. We were asked to design a remote-controlled car respecting speed, weight and size constraints."],
         
-        i3:["La direction se fait avec un servomoteur guidé par la carte Arduino. La voiture est propulsée par un petit moteur électrique et un enchainement d\'engrenages. Le tout est alimenté par un bloc à piles présent sous la carte.",
-            "Steering is done with a servomotor guided by the Arduino board. The car is powered by a small electric motor and a chain of gears. Everything is powered by a battery pack present under the board."],
+        i3:["La direction se fait avec un servomoteur guidé par la carte Arduino. La voiture est propulsée par un petit moteur électrique et un enchaînement d\'engrenages. Le tout est alimenté par un bloc à piles présent sous la carte.",
+            "The steering is done with a servo motor guided by the Arduino board. The car is powered by a small electric motor and a chain of gears. Everything is powered by a battery pack present under the card."],
         i4:["Voici une image de toutes les pièces imprimées de la voiture positionnées sur OpenSCAD:","Here is an image of all the printed parts of the car positioned on OpenSCAD:"],
     },
 
     tv : {
         i1:["Télévision interactive.","Interactive TV."],
-        i2:["Ce projet a été fait dans le but d\'ajouter plus de réalisme dans un jeu vidéo. Le joueur peut interagir avec le téléviseur en l\'allumant ou en changeant de chaines quand il est près de l\'écran.",
+        i2:["Ce projet a été fait dans le but d\'ajouter plus de réalisme dans un jeu vidéo. Le joueur peut interagir avec le téléviseur en l\'allumant ou en changeant de chaînes quand il est près de l\'écran.",
             "This project was done in order to add more realism in a video game. The player can interact with the TV by turning it on or changing channels when it is near the screen."],
         
         i3:["Le niveau du son change selon la distance entre le joueur et la télé. Un projecteur diffuse une lumière d\'ambiance à proximité du téléviseur dans le but de simuler l\'éclairage de l\'écran. Le joueur est détecté grâce à une trigger box à près de la télé.",
             "The sound level changes depending on the distance between the player and the TV. A projector diffuses an ambient light near the TV in order to simulate the lighting of the screen. The player is detected through a trigger box near the TV."],
         i4:["Vous pouvez voir sur cette image le projecteur, la trigger box et le haut-parleur :","You can see in this picture the projector, the trigger box and the speaker:"],
         
-        i5:["Il est facile d\'ajouter plusieurs nouvelles chaines à l\'aide d\'une classe 'chaine' contenant : La durée du programme, la source audio ainsi que la source vidéo. Deux fonctions permettent d\'allumer/éteindre la télé et changer de chaines.",
+        i5:["Il est facile d\'ajouter plusieurs nouvelles chaînes à l\'aide d\'une classe 'chaîne' contenant : La durée du programme, la source audio ainsi que la source vidéo. Deux fonctions permettent d\'allumer/éteindre la télé et changer de chaînes.",
         "It is easy to add several new channels using a 'channel' class containing: The duration of the program, the audio source as well as the video source. Two functions are used to switch on/off the TV and change channels."],
     },
 
     voiture3d:{
         i1:["Modélisation d\'une voiture en 3D","Modeling a car in 3D"],
-        i2:["La modélisation 3D est une activité passionnante qui permet de donner vie à des objets et des scènes virtuels en trois dimensions. Mon projet consiste en la modélisation d\'une voiture en trois dimensions, plus précisément une Mercedes c200. L\'objectif de ce projet est de m’entraîner à la modélisation 3D, mais également d\'intégrer cette voiture dans un jeu vidéo où les utilisateurs pourront la personnaliser en la repeignant ou en changeant certaines pièces.",
-            "3D modeling is an exciting activity that brings virtual three-dimensional objects and scenes to life. My project involves modeling a three-dimensional car, specifically a Mercedes c200. The goal of this project is to train me in 3D modeling, but also to integrate this car in a video game where users can customize it by repainting it or by changing some parts."],
+        i2:["La modélisation 3D est une activité passionnante qui permet de donner vie à des objets et des scènes virtuelles en trois dimensions. Mon projet consiste en la modélisation d\'une voiture en trois dimensions, plus précisément une Mercedes c200. L\'objectif de ce projet est de m’entraîner à la modélisation 3D, mais également d\'intégrer cette voiture dans un jeu vidéo où les utilisateurs pourront la personnaliser en la repeignant ou en changeant certaines pièces.",
+            "3D modeling is an exciting activity that brings virtual three-dimensional objects and scenes to life. My project involves modeling a three-dimensional car, specifically a Mercedes c200. The purpose of this project is to train me in 3D modeling but also to integrate this car into a video game where users can customize it by repainting it or by changing some parts."],
         
         i3:["Pour modéliser cette voiture, j’ai commencé par prendre toutes les mesures à la main et les ai reportées sur des schémas. Cette étape est cruciale pour assurer la précision de la modélisation et obtenir un rendu réaliste.",
-            "To model this car, I first took all the measurements by hand and plotted them on diagrams. This step is crucial to ensure the precision of the modelling and to obtain a realistic rendering."],
+            "To model this car, I started by taking all the measurements by hand and transferring them to diagrams. This step is crucial to ensure the accuracy of the modeling and to obtain a realistic rendering."],
         
-        i4:["Ensuite, j’ai commencé à modéliser l\'intérieur de la voiture, d\'abord avec le tableau de bord qui est composé de plusieurs pièces avec beaucoup de détails. Cette partie est particulièrement importante, car celle que les joueurs verons le plus souvent en première personne, ils pourront aussi interagir avec ses différents composants.",
-            "Then I started to model the interior of the car, first with the dashboard which is composed of several parts with lots of details. This part is particularly important, because the one that players will most often see in first person, they will also be able to interact with its various components."],
+        i4:["Ensuite, j’ai commencé à modéliser l\'intérieur de la voiture, d\'abord avec le tableau de bord qui est composé de plusieurs pièces avec beaucoup de détails. Cette partie est particulièrement importante, car celles que les joueurs verons le plus souvent en première personne, ils pourront aussi interagir avec ses différents composants.",
+            "Then I started to model the interior of the car, first with the dashboard which is composed of several parts with a lot of details. This part is particularly important, because those that players will most often see in first person, they will also be able to interact with its various components."],
         i5:["J’ai commencer mon travail de modélisation avec OpenScad que j\'affectionne tout particulièrement. Bien que ce logiciel ne soit pas le plus adapté pour ce genre de cas de figures, je l’utilise comme un challenge et le rendu est très satisfaisant.",
-            "I started my modeling work with OpenScad that I especially like. Although this software is not the most suitable for this kind of scenario, I use it as a challenge and the rendering is very satisfying."],
+            "I started my modeling work with OpenScad which I particularly like. Although this software is not the most suitable for this kind of scenario, I use it as a challenge and the rendering is very satisfactory."],
         
         i6:["Certaines pièces de la voiture ont des formes complexes qui nécessitent l\'utilisation de fonctions mathématiques pour les modéliser. Cela peut inclure les sièges, les panneaux de porte et d\'autres parties de la voiture qui ont des formes courbes ou non standard.",
-            "Some parts of the car have complex shapes that require the use of mathematical functions to model them. This may include seats, door panels and other parts of the car that have curved or non-standard shapes."],
+            "Some parts of the car have complex shapes that require the use of mathematical functions to model them. This can include seats, door panels, and other parts of the car that have curved or non-standard shapes."],
         
         i7:["Après avoir modélisé l\'intérieur, j’ai travaillé sur les sièges et la banquette arrière du véhicule. Ces parties sont également très importantes pour assurer la qualité de la modélisation et la réalité du rendu final.",
             "After modeling the interior, I worked on the seats and the rear seat of the vehicle. These parts are also very important to ensure the quality of the modelling and the reality of the final rendering."],
         
-        i8:["Enfin, j’ai réaliser la base de la carrosserie. Cette étape peut être la plus complexe, car la carrosserie d\'une voiture a souvent des formes particulières et nécessite de nombreuses itérations pour obtenir le résultat souhaité. Par la suite je vais continuer sur un logiciel de modélisation plus adapté au forme complexe comme Blender avec lequel les temps de calculs sont nettement raccourcis.",
+        i8:["Enfin, j’ai réaliser la base de la carrosserie. Cette étape peut être la plus complexe, car la carrosserie d\'une voiture a souvent des formes particulières et nécessite de nombreuses itérations pour obtenir le résultat souhaité. Par la suite, je vais continuer sur un logiciel de modélisation plus adapté aux formes complexes comme Blender avec lequel les temps de calculs sont nettement raccourcis.",
             "Finally, I realized the body base. This step can be the most complex, as the body of a car often has particular shapes and requires many iterations to achieve the desired result. Then I will continue on a modeling software more adapted to the complex form like Blender with which the calculation times are clearly shortened."],
         
-        i9:["Bien que ce projet ne soit pas encore terminé, je continue de travailler dessus dans mes temps libre. Ce projet est une excellente opportunité pour moi d\'améliorer mes compétences en modélisation 3D et de développer un projet personnel dont je suis vraiment fier.",
+        i9:["Bien que ce projet ne soit pas encore terminé, je continue de travailler dessus dans mes temps libres. Ce projet est une excellente opportunité pour moi d\'améliorer mes compétences en modélisation 3D et de développer un projet personnel dont je suis vraiment fier.",
             "Although this project is not yet complete, I continue to work on it in my free time. This project is a great opportunity for me to improve my 3D modeling skills and develop a personal project that I am really proud of."],
     }
 }
@@ -417,23 +417,23 @@ var pArduino = {
         i2:["Captivé par la moto et la programmation Arduino depuis jeune, j\'ai fait un programme et le montage électronique qui permet de gérer à distance une moto. Une application Android envoie des informations à la carte Arduino, elle peut par la suite gérer le contact, le démarrage et le klaxon.",
             "Captivated by the bike and the Arduino programming since young, I made a program and electronic assembly that allows to manage a motorcycle remotely. An Android application sends information to the Arduino board, it can then manage the contact, start and horn."],
         
-        i3:["Ce projet m\'a beaucoup plus, j\'avais déjà fait le même montage sur une autre moto mais avec des relais radio. Celui-ci utilise une carte Arduino des relais et un module Bluetooth.",
+        i3:["Ce projet m\'a beaucoup plu, j\'avais déjà fait le même montage sur une autre moto mais avec des relais radio. Celui-ci utilise une carte Arduino des relais et un module Bluetooth.",
             "This project is really important to me, I had already done the same assembly on another motorcycle but with radio relays. It uses an Arduino relay board and a Bluetooth module."],
-        i4:["Avec une application Android nous pouvons nous connecter à la carte Arduino et contrôler les fonctionnalités de la moto comme : Les feux, le démarrage et le klaxon. Le tout est présenté dans une vidéo sur le lien précèdent.",
+        i4:["Avec une application Android, nous pouvons nous connecter à la carte Arduino et contrôler les fonctionnalités de la moto comme : Les feux, le démarrage et le klaxon. Le tout est présenté dans une vidéo sur le lien précèdent.",
             "With an Android app we can connect to the Arduino board and control the features of the bike like: Lights, start and horn. Everything is presented in a video on the above link."],
     },
 
     porte:{
         i1:["Programme de sécurité d\'une porte(RFID,bluetooth,Clavier)","Door security program (RFID,bluetooth,Keyboard)"],
-        i2:["Dans le but de réunir plusieurs programmes Arduino, j\'ai réalisé un système de sécurité pour une porte de chambre. Ce système utilise un capteur RFID un module Bluetooth ainsi qu\'un clavier 3*4. Une application Android permet sa gestion à distance.",
+        i2:["Dans le but de réunir plusieurs programmes Arduino, j\'ai réalisé un système de sécurité pour une porte de chambre. Ce système utilise un capteur RFID un module Bluetooth, ainsi qu\'un clavier 3*4. Une application Android permet sa gestion à distance.",
             "In order to bring together several Arduino programs, I realized a security system for a bedroom door. This system uses an RFID sensor a Bluetooth module as well as a 3*4 keyboard. An Android application allows its remote management."],
         
         i3:["J\'ai réalisé ce projet dans le but de réunir plusieurs programmes Arduino. C\'est un système de sécurité pour une porte de chambre, il utilise un capteur RFID un module Bluetooth ainsi qu\'un clavier 3*4.",
             "I carried out this project in order to bring together several Arduino programs. It is a security system for a bedroom door, it uses an RFID sensor a Bluetooth module as well as a 3*4 keyboard."],
         
-        i4:["Avec une application Android on peut se connecter à la carte Arduino et interagir avec les fonctionnalités de la porte. Il est donc possible à distance (portée Bluetooth) de verrouiller ou déverrouiller la porte ou de gérer l\'alarme. Le capteur RFID lit des badges et des carte RFID en 13.56MHz. Un badge et un code administrateur sont enregistrés dans le programme, ils donnent accès au menu qui permet d\'enregistrer un code ou un badge invité temporaire qui est supprimé après 24 heures. D\'autres badges sont enregistrés mais sans les droits administrateurs.",
+        i4:["Avec une application Android, on peut se connecter à la carte Arduino et interagir avec les fonctionnalités de la porte. Il est donc possible à distance (portée Bluetooth) de verrouiller ou déverrouiller la porte ou de gérer l\'alarme. Le capteur RFID lit des badges et des carte RFID en 13.56MHz. Un badge et un code administrateur sont enregistrés dans le programme, ils donnent accès au menu qui permet d\'enregistrer un code ou un badge invité temporaire qui est supprimé après 24 heures. D\'autres badges sont enregistrés mais sans les droits administrateurs.",
             "With an Android application you can connect to the Arduino board and interact with the door features. It is therefore possible remotely (Bluetooth range) to lock or unlock the door or manage the alarm. The RFID sensor reads badges and RFID cards in 13.56MHz. A badge and an administrator code are registered in the program, they give access to the menu that allows to register a temporary guest code or badge that is deleted after 24 hours. Other badges are registered but without administrator rights."],
-        i5:["Le verrouillage et le déverrouillage se fait avec un loquet entrainé par un servomoteur. Tout est visible dans la vidéo en lien plus haut.",
+        i5:["Le verrouillage et le déverrouillage se font avec un loquet entraîné par un servomoteur. Tout est visible dans la vidéo en lien plus haut.",
             "Locking and unlocking is done with a latch driven by a servomotor. Everything is visible in the video link above."],
     }
 }
@@ -444,7 +444,7 @@ var pLogiciels = {
         i2:["Afin de mieux appréhender le domaine de la cryptographie, j\'ai réalisé un programme de chiffrement et de déchiffrement selon un protocole que je voulais faire entièrement moi-même.",
             "In order to better understand the field of cryptography, I realized an encryption and decryption program according to a protocol that I wanted to make entirely myself."],
         
-        i3:["Tout d\'abord, je voulais montrer mes compétences dans Excel, j\'ai donc créé un outil de cryptage et de décryptage dans la commande Excel. Le dossier était très lourd, et les calculs prenaient beaucoup de temps.",
+        i3:["Tout d\'abord, je voulais montrer mes compétences dans Excel, j\'ai donc créé un outil de cryptage et de décryptage dans la commande Excel. Le dossier était très lourd et les calculs prenaient beaucoup de temps.",
             "First of all, I wanted to show my skills in Excel, so I created an encryption and decryption tool in the Excel command. The file was very cumbersome, and the calculations took a long time."],
         
         i4:["Alors j\'ai décidé de le coder en C pour pouvoir en faire une application utilisable. Cela m\'a permis d\'apprendre de nouvelles fonctionnalités du langage C telles que l\'écriture et la lecture de fichiers ou les façons de lire et d\'écrire des caractères spéciaux.",
