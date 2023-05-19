@@ -80,13 +80,6 @@
     min-width: 300px;
   }
 
-  #iframePage{
-    width: 100%;
-    margin : 0;
-    overflow: hidden;
-    border: 0;
-  }
-
   main p{
     margin-top: 10px;
     text-align: justify;

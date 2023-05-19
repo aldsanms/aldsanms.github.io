@@ -16,7 +16,7 @@ document.write(
                 '</div>'+
             '</div>'+
         '</div>'+
-        '<nav>'+
+        '<nav id="bas">'+
             '<ul>'+
                 '<li><a href="parcours.html">'+baniere.l1[lan]+'</a></li>'+
                 '<li><a href="cv.html">'+baniere.l2[lan]+'</a></li>'+
@@ -27,3 +27,13 @@ document.write(
         '</nav>'+
     '</div>'
 );
+
+function changeHeader(){
+    document.querySelector('header').style.top = "-"+(document.getElementById("bas").offsetTop -8)+"px";
+}
+
+window.addEventListener('resize', changeHeader);
+
+document.addEventListener('DOMContentLoaded', function() {
+    changeHeader();
+});
