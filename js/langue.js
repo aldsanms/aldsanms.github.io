@@ -137,8 +137,8 @@ var baniere={
 var accueil={
     t1:["Sanchez Aldryck - Accueil" , "Sanchez Aldryck - Home page"],
 
-    i1:["Étudiant en 4<sup>éme</sup> année d\'école d\'ingénieur informatique",
-        "Student in 4<sup>th</sup> year of computer engineering school"],
+i1: ["Ingénieur diplômé en informatique, spécialisé en développement logiciel",
+     "Computer engineering graduate specialized in software development"],
     i2:["Bonjour et bienvenue sur mon site de présentation. Je suis heureux de vous accueillir et de vous permettre d\'en apprendre davantage sur moi. Ce site a été créé pour vous fournir une vue d\'ensemble de mon parcours, mes réalisations ainsi que mes projets passés et actuels. Vous trouverez également une section dédiée à mon CV pour vous donner une meilleure idée de mes compétences et expériences. Enfin, une page de contact est disponible si vous souhaitez me poser des questions ou discuter de projets potentiels.",
         "Hello and welcome to my presentation site. I am pleased to welcome you and allow you to learn more about me. This site was created to provide you with an overview of my background, my achievements and my past and current projects. You will also find a section dedicated to my CV to give you a better idea of my skills and experiences. Finally, a contact page is available if you want to ask me questions or discuss potential projects."],
     i3:["N\'hésitez pas à parcourir mon site et à me contacter si vous avez des questions ou des commentaires.",
@@ -191,8 +191,8 @@ var cv={
 
     i1: ["-> Afficher au format image <-",
         "-> Display in image format <-"],
-    a1:["../cv/CV_5_2_Fr.pdf","../cv/CV_5_2_Fr.pdf"],
-    img1:["../cv/CV_5_2_Fr.jpg","../cv/CV_5_2_Fr.jpg"]
+    a1:["../cv/CV_5_3_Fr.pdf","../cv/CV_5_3_Fr.pdf"],
+    img1:["../cv/CV_5_3_Fr.jpg","../cv/CV_5_3_Fr.jpg"]
 };
 
 var parcours={
@@ -208,6 +208,14 @@ var parcours={
     i5:["<strong>[5 ans]</strong> entre 2019 et 2024","<strong>[5 years]</strong> between 2019 and 2024"],
     i6:["Depuis septembre 2019, je suis une formation d\'ingénieur du CESI de Toulouse. Cette formation de cinq ans me permet de me spécialiser en informatique tout en bénéficiant d\'un apprentissage par projets. Au cours de cette expérience, j\'ai développé mes compétences techniques et informatiques, ainsi que mes capacités à travailler en équipe.",
         "Since September 2019, I have followed an Engineering training at CESI in Toulouse. It is a five-year engineering training where I majored in computer science. I have followed an engineering treding with project-based learning. I continue to develop my group work and I have acquired new technical computer skills."],
+
+    i44: ["Contrat de professionnalisation chez Continental à Toulouse",  
+     "Professional training contract at Continental in Toulouse"],
+    i45: ["<strong>[1 an]</strong> entre septembre 2023 et septembre 2024",  
+        "<strong>[1 year]</strong> between September 2023 and September 2024"],
+    i46: ["Automatisation de la génération de classes Java à partir de spécifications ASN.1 à l’aide d’ANTLR, Maven et GCDC, avec la création d’un plugin Maven facilitant l’intégration dans d’autres projets.",  
+     "Automated Java class generation from ASN.1 specifications using ANTLR, Maven, and GCDC, including the development of a Maven plugin for easy integration into other projects."],
+
 
     i7:["Stage en laboratoire à l\'université d\'Aalborg au Danemark","Laboratory internship at Aalborg University in Denmark"],
     i8:["<strong>[5 mois]</strong> entre septembre 2022 et février 2023","<strong>[5 months]</strong> between September 2022 and February 2023"],
