@@ -206,8 +206,8 @@ var parcours={
 
     i4:["Formation en école ingénieur au CESI de Toulouse","Training in an engineering school at the CESI in Toulouse"],
     i5:["<strong>[5 ans]</strong> entre 2019 et 2024","<strong>[5 years]</strong> between 2019 and 2024"],
-    i6:["Depuis septembre 2019, je suis une formation d\'ingénieur du CESI de Toulouse. Cette formation de cinq ans me permet de me spécialiser en informatique tout en bénéficiant d\'un apprentissage par projets. Au cours de cette expérience, j\'ai développé mes compétences techniques et informatiques, ainsi que mes capacités à travailler en équipe.",
-        "Since September 2019, I have followed an Engineering training at CESI in Toulouse. It is a five-year engineering training where I majored in computer science. I have followed an engineering treding with project-based learning. I continue to develop my group work and I have acquired new technical computer skills."],
+    i6:["Depuis septembre 2019, j'ai suivi une formation d'ingénieur en informatique au CESI de Toulouse. Ce cursus de cinq ans, axé sur l'apprentissage par projets, m’a permis de développer de solides compétences techniques et de renforcer ma capacité à travailler en équipe. Aujourd'hui diplômé, je suis ingénieur en informatique.",
+        "Since September 2019, I have completed an engineering program in computer science at CESI Toulouse. This five-year, project-based curriculum allowed me to develop strong technical skills and improve my ability to work in a team. I am now a qualified computer science engineer."],
 
     i44: ["Contrat de professionnalisation chez Continental à Toulouse",  
      "Professional training contract at Continental in Toulouse"],
