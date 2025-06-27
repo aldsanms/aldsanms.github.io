@@ -483,7 +483,7 @@ var footer={
     i5: ["Navigation","Navigation"],
     l1: ["Accueil","Home page"],
 
-    i6: ["&copy; 2023 - Sanchez Aldryck - Tous droits réservés","&copy; 2023 - Sanchez Aldryck - All rights reserved"],
+    i6: ["&copy; 2025 - Sanchez Aldryck - Tous droits réservés","&copy; 2025 - Sanchez Aldryck - All rights reserved"],
     
 };
 
