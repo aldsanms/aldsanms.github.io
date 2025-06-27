@@ -5,6 +5,7 @@ document.write(
             '<ul class="social-media">'+
                 '<li><a href="https://www.linkedin.com/in/aldryck-sanchez-157312206/" target="_blank">LinkedIn</a></li>'+
                 '<li><a href="https://github.com/aldsanms" target="_blank">GitHub</a></li>'+
+                '<li><a href="https://www.instagram.com/marmelade_interactive/" target="_blank">Instagram</a></li>'+
             '</ul>'+
         '</div>'+
         '<div class="footer-section">'+
